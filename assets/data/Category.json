@@ -1,0 +1,7 @@
+[
+  {"ID":1,"FunctionCode":"EXECUTION","CategoryCode":"EXEC","DisplayLabel":"Execution","CompetencyName":"Execution","CategoryKey":"EXECUTION|EXEC|execution","IsActive":true,"_etag":"\"1\""},
+  {"ID":2,"FunctionCode":"EDUCATION_PROGRAM","CategoryCode":"EDU","DisplayLabel":"Education Program","CompetencyName":"Education Program","CategoryKey":"EDUCATION_PROGRAM|EDU|education program","IsActive":true,"_etag":"\"1\""},
+  {"ID":3,"FunctionCode":"LFO_COMMERCIAL","CategoryCode":"COMM_SERVICES","DisplayLabel":"Commercial Services","CompetencyName":"Commercial Services","CategoryKey":"LFO_COMMERCIAL|COMM_SERVICES|commercial services","IsActive":true,"_etag":"\"1\""},
+  {"ID":4,"FunctionCode":"LFO_MANUFACTURING","CategoryCode":"MFG_SERVICES","DisplayLabel":"Manufacturing Services","CompetencyName":"Manufacturing Services","CategoryKey":"LFO_MANUFACTURING|MFG_SERVICES|manufacturing services","IsActive":true,"_etag":"\"1\""},
+  {"ID":5,"FunctionCode":"EXECUTION","CategoryCode":"LEGACY_EXEC","DisplayLabel":"Legacy Execution","CompetencyName":"Legacy Execution","CategoryKey":"EXECUTION|LEGACY_EXEC|legacy execution","IsActive":false,"_etag":"\"1\""}
+]

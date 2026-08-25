@@ -1,0 +1,35 @@
+:root { --vms-navy: #041e42; --vms-cyan: #009fdf; --vms-action: #007faf; --vms-yellow: #ffcd00; --vms-danger: #e35205; --vms-bg: #f4f7fa; --vms-border: #d9e2ec; --vms-text: #102a43; --vms-muted: #627d98; }
+html, body { min-height: 100%; }
+body { margin: 0; background: var(--vms-bg); color: var(--vms-text); font-family: Arial, Helvetica, sans-serif; }
+.vms-shell { min-height: 100vh; display: flex; width: 100%; }
+.vms-sidebar { flex: 0 0 250px; min-height: 100vh; padding: 24px 16px; background: linear-gradient(180deg, #07315d 0%, var(--vms-navy) 100%); color: #fff; }
+.vms-brand-block { padding: 0 12px 28px; }
+.vms-brand { display: flex; align-items: center; color: #fff; font-size: 28px; font-weight: 800; letter-spacing: .02em; text-decoration: none; }
+.vms-brand:hover, .vms-brand:focus { color: #fff; text-decoration: none; }
+.vms-brand-mark { width: 7px; height: 38px; margin-right: 15px; border-radius: 5px; background: linear-gradient(180deg, var(--vms-yellow), #ff8a00); }
+.vms-brand-block p { margin: 22px 0 0; color: #b8d7ee; font-size: 14px; font-weight: 700; letter-spacing: .04em; line-height: 1.45; }
+.vms-sidebar nav { display: flex; flex-direction: column; gap: 7px; }
+.vms-nav-link { position: relative; display: flex; align-items: center; min-height: 50px; padding: 10px 16px 10px 25px; border-radius: 12px; color: #e7f3fb; font-size: 16px; text-decoration: none; transition: background .15s ease, color .15s ease; }
+.vms-nav-link:hover, .vms-nav-link:focus { background: rgba(255,255,255,.09); color: #fff; text-decoration: none; }
+.vms-nav-link.active { background: rgba(0,159,223,.19); color: #fff; font-weight: 700; }
+.vms-nav-link.active::before { position: absolute; top: 11px; bottom: 11px; left: 0; width: 5px; border-radius: 4px; background: linear-gradient(180deg, var(--vms-yellow), #ff8a00); content: ''; }
+.vms-nav-glyph { display: inline-flex; width: 24px; margin-right: 10px; justify-content: center; color: #b9e7fa; font-weight: 800; }
+.vms-nav-link.active .vms-nav-glyph { color: #fff; }
+.vms-nav-administration { margin-top: 12px; padding-top: 20px; border-top: 1px solid rgba(185,231,250,.28); border-radius: 0 0 12px 12px; }
+.vms-nav-administration.active::before { top: 18px; }
+.vms-main { min-width: 0; flex: 1 1 auto; }
+.vms-header { min-height: 78px; padding: 12px 32px; display: flex; align-items: center; justify-content: space-between; gap: 24px; background: #fff; border-bottom: 1px solid #edf2f7; box-shadow: 0 1px 4px rgba(4,30,66,.04); }
+.vms-header h1 { margin: 0; color: var(--vms-navy); font-size: 27px; font-weight: 800; }
+.vms-header-user { display: flex; align-items: center; gap: 22px; }
+.vms-user-switcher { width: min(450px, 38vw); }
+.vms-user-switcher label { display: block; margin: 0 0 4px; color: var(--vms-muted); font-size: 11px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.vms-user-switcher select { height: 36px; border-color: #bcccdc; color: var(--vms-text); font-size: 13px; }
+.vms-current-user { display: flex; align-items: center; min-width: 210px; }
+.vms-current-user strong, .vms-current-user small { display: block; }
+.vms-current-user strong { color: var(--vms-navy); font-size: 14px; }
+.vms-current-user small { max-width: 240px; margin-top: 2px; color: var(--vms-muted); font-size: 11px; }
+.vms-avatar { flex: 0 0 40px; width: 40px; height: 40px; margin-right: 10px; border-radius: 50%; background: var(--vms-cyan); color: #fff; font-weight: 800; line-height: 40px; text-align: center; }
+#vms-page { padding: 34px 32px; }
+.vms-loading { padding: 30px; text-align: center; }
+@media (max-width: 1050px) { .vms-sidebar { flex-basis: 210px; } .vms-header { align-items: flex-start; } .vms-header-user { align-items: flex-end; flex-direction: column-reverse; gap: 8px; } .vms-user-switcher { width: 380px; max-width: 50vw; } }
+@media (max-width: 760px) { .vms-shell { display: block; } .vms-sidebar { min-height: auto; padding-bottom: 14px; } .vms-sidebar nav { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); } .vms-brand-block { padding-bottom: 14px; } .vms-header { padding: 16px 20px; flex-direction: column; align-items: stretch; } .vms-header-user { align-items: stretch; } .vms-user-switcher { width: 100%; max-width: none; } #vms-page { padding: 24px 18px; } }

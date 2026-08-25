@@ -1,0 +1,6 @@
+[
+  {"ID":1,"CityName":"Riyadh","Country":1,"CountryCityKey":"SA|riyadh","IsActive":true,"_etag":"\"1\""},
+  {"ID":2,"CityName":"Jeddah","Country":1,"CountryCityKey":"SA|jeddah","IsActive":true,"_etag":"\"1\""},
+  {"ID":3,"CityName":"Dubai","Country":2,"CountryCityKey":"AE|dubai","IsActive":true,"_etag":"\"1\""},
+  {"ID":4,"CityName":"Abu Dhabi","Country":2,"CountryCityKey":"AE|abu dhabi","IsActive":true,"_etag":"\"1\""}
+]

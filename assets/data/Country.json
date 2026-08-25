@@ -1,0 +1,4 @@
+[
+  {"ID":1,"CountryCode":"SA","CountryName":"Saudi Arabia","PhoneCode":"+966","PhoneFormat":"5X XXX XXXX","IsActive":true,"_etag":"\"1\""},
+  {"ID":2,"CountryCode":"AE","CountryName":"United Arab Emirates","PhoneCode":"+971","PhoneFormat":"5X XXX XXXX","IsActive":true,"_etag":"\"1\""}
+]

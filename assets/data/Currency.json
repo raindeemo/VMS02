@@ -1,0 +1,5 @@
+[
+  {"ID":1,"CurrencyCode":"SAR","CurrencyName":"Saudi Riyal","ConversionRateToSAR":1.000000,"IsActive":true,"RateNote":"Invariant base currency","_etag":"\"1\""},
+  {"ID":2,"CurrencyCode":"USD","CurrencyName":"US Dollar","ConversionRateToSAR":3.750000,"IsActive":true,"RateNote":"Dummy deterministic rate","_etag":"\"1\""},
+  {"ID":3,"CurrencyCode":"EUR","CurrencyName":"Euro","ConversionRateToSAR":4.420000,"IsActive":true,"RateNote":"Dummy deterministic rate","_etag":"\"1\""}
+]
