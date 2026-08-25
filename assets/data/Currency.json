@@ -1,5 +1,272 @@
 [
-  {"ID":1,"CurrencyCode":"SAR","CurrencyName":"Saudi Riyal","ConversionRateToSAR":1.000000,"IsActive":true,"RateNote":"Invariant base currency","_etag":"\"1\""},
-  {"ID":2,"CurrencyCode":"USD","CurrencyName":"US Dollar","ConversionRateToSAR":3.750000,"IsActive":true,"RateNote":"Dummy deterministic rate","_etag":"\"1\""},
-  {"ID":3,"CurrencyCode":"EUR","CurrencyName":"Euro","ConversionRateToSAR":4.420000,"IsActive":true,"RateNote":"Dummy deterministic rate","_etag":"\"1\""}
+  {
+    "ID": 1,
+    "CurrencyCode": "SAR",
+    "CurrencyName": "Saudi Riyal",
+    "ConversionRateToSAR": 1.0,
+    "IsActive": true,
+    "RateNote": "Invariant base currency",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 2,
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "ConversionRateToSAR": 3.75,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 3,
+    "CurrencyCode": "EUR",
+    "CurrencyName": "Euro",
+    "ConversionRateToSAR": 4.42,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 4,
+    "CurrencyCode": "GBP",
+    "CurrencyName": "British Pound Sterling",
+    "ConversionRateToSAR": 4.75,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 5,
+    "CurrencyCode": "JPY",
+    "CurrencyName": "Japanese Yen",
+    "ConversionRateToSAR": 0.025,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 6,
+    "CurrencyCode": "CNY",
+    "CurrencyName": "Chinese Yuan Renminbi",
+    "ConversionRateToSAR": 0.52,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 7,
+    "CurrencyCode": "AUD",
+    "CurrencyName": "Australian Dollar",
+    "ConversionRateToSAR": 2.45,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 8,
+    "CurrencyCode": "CAD",
+    "CurrencyName": "Canadian Dollar",
+    "ConversionRateToSAR": 2.73,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 9,
+    "CurrencyCode": "CHF",
+    "CurrencyName": "Swiss Franc",
+    "ConversionRateToSAR": 4.65,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 10,
+    "CurrencyCode": "HKD",
+    "CurrencyName": "Hong Kong Dollar",
+    "ConversionRateToSAR": 0.48,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 11,
+    "CurrencyCode": "SGD",
+    "CurrencyName": "Singapore Dollar",
+    "ConversionRateToSAR": 2.79,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 12,
+    "CurrencyCode": "SEK",
+    "CurrencyName": "Swedish Krona",
+    "ConversionRateToSAR": 0.36,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 13,
+    "CurrencyCode": "KRW",
+    "CurrencyName": "South Korean Won",
+    "ConversionRateToSAR": 0.0028,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 14,
+    "CurrencyCode": "NOK",
+    "CurrencyName": "Norwegian Krone",
+    "ConversionRateToSAR": 0.35,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 15,
+    "CurrencyCode": "NZD",
+    "CurrencyName": "New Zealand Dollar",
+    "ConversionRateToSAR": 2.26,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 16,
+    "CurrencyCode": "INR",
+    "CurrencyName": "Indian Rupee",
+    "ConversionRateToSAR": 0.045,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 17,
+    "CurrencyCode": "MXN",
+    "CurrencyName": "Mexican Peso",
+    "ConversionRateToSAR": 0.195,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 18,
+    "CurrencyCode": "ZAR",
+    "CurrencyName": "South African Rand",
+    "ConversionRateToSAR": 0.205,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 19,
+    "CurrencyCode": "TRY",
+    "CurrencyName": "Turkish Lira",
+    "ConversionRateToSAR": 0.11,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 20,
+    "CurrencyCode": "BRL",
+    "CurrencyName": "Brazilian Real",
+    "ConversionRateToSAR": 0.66,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 21,
+    "CurrencyCode": "PLN",
+    "CurrencyName": "Polish Zloty",
+    "ConversionRateToSAR": 0.935,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 22,
+    "CurrencyCode": "THB",
+    "CurrencyName": "Thai Baht",
+    "ConversionRateToSAR": 0.108,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 23,
+    "CurrencyCode": "IDR",
+    "CurrencyName": "Indonesian Rupiah",
+    "ConversionRateToSAR": 0.000235,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 24,
+    "CurrencyCode": "RUB",
+    "CurrencyName": "Russian Ruble",
+    "ConversionRateToSAR": 0.038,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 25,
+    "CurrencyCode": "EGP",
+    "CurrencyName": "Egyptian Pound",
+    "ConversionRateToSAR": 0.077,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 26,
+    "CurrencyCode": "KWD",
+    "CurrencyName": "Kuwaiti Dinar",
+    "ConversionRateToSAR": 12.2,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 27,
+    "CurrencyCode": "QAR",
+    "CurrencyName": "Qatari Riyal",
+    "ConversionRateToSAR": 1.03,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 28,
+    "CurrencyCode": "BHD",
+    "CurrencyName": "Bahraini Dinar",
+    "ConversionRateToSAR": 9.95,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 29,
+    "CurrencyCode": "OMR",
+    "CurrencyName": "Omani Rial",
+    "ConversionRateToSAR": 9.74,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 30,
+    "CurrencyCode": "JOD",
+    "CurrencyName": "Jordanian Dinar",
+    "ConversionRateToSAR": 5.29,
+    "IsActive": true,
+    "RateNote": "Dummy deterministic rate",
+    "_etag": "\"1\""
+  }
 ]

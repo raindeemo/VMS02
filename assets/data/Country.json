@@ -1,4 +1,2207 @@
 [
-  {"ID":1,"CountryCode":"SA","CountryName":"Saudi Arabia","PhoneCode":"+966","PhoneFormat":"5X XXX XXXX","IsActive":true,"_etag":"\"1\""},
-  {"ID":2,"CountryCode":"AE","CountryName":"United Arab Emirates","PhoneCode":"+971","PhoneFormat":"5X XXX XXXX","IsActive":true,"_etag":"\"1\""}
+  {
+    "ID": 1,
+    "CountryCode": "SA",
+    "CountryName": "Saudi Arabia",
+    "PhoneCode": "+966",
+    "PhoneFormat": "5X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 2,
+    "CountryCode": "AE",
+    "CountryName": "United Arab Emirates",
+    "PhoneCode": "+971",
+    "PhoneFormat": "5X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 3,
+    "CountryCode": "AF",
+    "CountryName": "Afghanistan",
+    "PhoneCode": "+93",
+    "PhoneFormat": "7X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 4,
+    "CountryCode": "AL",
+    "CountryName": "Albania",
+    "PhoneCode": "+355",
+    "PhoneFormat": "6X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 5,
+    "CountryCode": "DZ",
+    "CountryName": "Algeria",
+    "PhoneCode": "+213",
+    "PhoneFormat": "5XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 6,
+    "CountryCode": "AS",
+    "CountryName": "American Samoa",
+    "PhoneCode": "+1684",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 7,
+    "CountryCode": "AD",
+    "CountryName": "Andorra",
+    "PhoneCode": "+376",
+    "PhoneFormat": "XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 8,
+    "CountryCode": "AO",
+    "CountryName": "Angola",
+    "PhoneCode": "+244",
+    "PhoneFormat": "9XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 9,
+    "CountryCode": "AI",
+    "CountryName": "Anguilla",
+    "PhoneCode": "+1264",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 10,
+    "CountryCode": "AQ",
+    "CountryName": "Antarctica",
+    "PhoneCode": "+672",
+    "PhoneFormat": "XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 11,
+    "CountryCode": "AG",
+    "CountryName": "Antigua and Barbuda",
+    "PhoneCode": "+1268",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 12,
+    "CountryCode": "AR",
+    "CountryName": "Argentina",
+    "PhoneCode": "+54",
+    "PhoneFormat": "9 11 XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 13,
+    "CountryCode": "AM",
+    "CountryName": "Armenia",
+    "PhoneCode": "+374",
+    "PhoneFormat": "9X XXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 14,
+    "CountryCode": "AW",
+    "CountryName": "Aruba",
+    "PhoneCode": "+297",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 15,
+    "CountryCode": "AU",
+    "CountryName": "Australia",
+    "PhoneCode": "+61",
+    "PhoneFormat": "4XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 16,
+    "CountryCode": "AT",
+    "CountryName": "Austria",
+    "PhoneCode": "+43",
+    "PhoneFormat": "6XX XXXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 17,
+    "CountryCode": "AZ",
+    "CountryName": "Azerbaijan",
+    "PhoneCode": "+994",
+    "PhoneFormat": "5X XXX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 18,
+    "CountryCode": "BS",
+    "CountryName": "Bahamas",
+    "PhoneCode": "+1242",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 19,
+    "CountryCode": "BH",
+    "CountryName": "Bahrain",
+    "PhoneCode": "+973",
+    "PhoneFormat": "3XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 20,
+    "CountryCode": "BD",
+    "CountryName": "Bangladesh",
+    "PhoneCode": "+880",
+    "PhoneFormat": "1XXX XXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 21,
+    "CountryCode": "BB",
+    "CountryName": "Barbados",
+    "PhoneCode": "+1246",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 22,
+    "CountryCode": "BY",
+    "CountryName": "Belarus",
+    "PhoneCode": "+375",
+    "PhoneFormat": "XX XXX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 23,
+    "CountryCode": "BE",
+    "CountryName": "Belgium",
+    "PhoneCode": "+32",
+    "PhoneFormat": "4XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 24,
+    "CountryCode": "BZ",
+    "CountryName": "Belize",
+    "PhoneCode": "+501",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 25,
+    "CountryCode": "BJ",
+    "CountryName": "Benin",
+    "PhoneCode": "+229",
+    "PhoneFormat": "XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 26,
+    "CountryCode": "BM",
+    "CountryName": "Bermuda",
+    "PhoneCode": "+1441",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 27,
+    "CountryCode": "BT",
+    "CountryName": "Bhutan",
+    "PhoneCode": "+975",
+    "PhoneFormat": "XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 28,
+    "CountryCode": "BO",
+    "CountryName": "Bolivia",
+    "PhoneCode": "+591",
+    "PhoneFormat": "X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 29,
+    "CountryCode": "BA",
+    "CountryName": "Bosnia and Herzegovina",
+    "PhoneCode": "+387",
+    "PhoneFormat": "6X XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 30,
+    "CountryCode": "BW",
+    "CountryName": "Botswana",
+    "PhoneCode": "+267",
+    "PhoneFormat": "XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 31,
+    "CountryCode": "BV",
+    "CountryName": "Bouvet Island",
+    "PhoneCode": "+47",
+    "PhoneFormat": "XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 32,
+    "CountryCode": "BR",
+    "CountryName": "Brazil",
+    "PhoneCode": "+55",
+    "PhoneFormat": "XX 9XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 33,
+    "CountryCode": "IO",
+    "CountryName": "British Indian Ocean Territory",
+    "PhoneCode": "+246",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 34,
+    "CountryCode": "VG",
+    "CountryName": "British Virgin Islands",
+    "PhoneCode": "+1284",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 35,
+    "CountryCode": "BN",
+    "CountryName": "Brunei",
+    "PhoneCode": "+673",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 36,
+    "CountryCode": "BG",
+    "CountryName": "Bulgaria",
+    "PhoneCode": "+359",
+    "PhoneFormat": "8X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 37,
+    "CountryCode": "BF",
+    "CountryName": "Burkina Faso",
+    "PhoneCode": "+226",
+    "PhoneFormat": "XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 38,
+    "CountryCode": "BI",
+    "CountryName": "Burundi",
+    "PhoneCode": "+257",
+    "PhoneFormat": "XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 39,
+    "CountryCode": "CV",
+    "CountryName": "Cabo Verde",
+    "PhoneCode": "+238",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 40,
+    "CountryCode": "KH",
+    "CountryName": "Cambodia",
+    "PhoneCode": "+855",
+    "PhoneFormat": "XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 41,
+    "CountryCode": "CM",
+    "CountryName": "Cameroon",
+    "PhoneCode": "+237",
+    "PhoneFormat": "6XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 42,
+    "CountryCode": "CA",
+    "CountryName": "Canada",
+    "PhoneCode": "+1",
+    "PhoneFormat": "(XXX) XXX-XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 43,
+    "CountryCode": "KY",
+    "CountryName": "Cayman Islands",
+    "PhoneCode": "+1345",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 44,
+    "CountryCode": "CF",
+    "CountryName": "Central African Republic",
+    "PhoneCode": "+236",
+    "PhoneFormat": "XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 45,
+    "CountryCode": "TD",
+    "CountryName": "Chad",
+    "PhoneCode": "+235",
+    "PhoneFormat": "XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 46,
+    "CountryCode": "CL",
+    "CountryName": "Chile",
+    "PhoneCode": "+56",
+    "PhoneFormat": "9 XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 47,
+    "CountryCode": "CN",
+    "CountryName": "China",
+    "PhoneCode": "+86",
+    "PhoneFormat": "1XX XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 48,
+    "CountryCode": "CX",
+    "CountryName": "Christmas Island",
+    "PhoneCode": "+61",
+    "PhoneFormat": "4XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 49,
+    "CountryCode": "CC",
+    "CountryName": "Cocos (Keeling) Islands",
+    "PhoneCode": "+61",
+    "PhoneFormat": "4XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 50,
+    "CountryCode": "CO",
+    "CountryName": "Colombia",
+    "PhoneCode": "+57",
+    "PhoneFormat": "3XX XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 51,
+    "CountryCode": "KM",
+    "CountryName": "Comoros",
+    "PhoneCode": "+269",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 52,
+    "CountryCode": "CD",
+    "CountryName": "Congo (Democratic Republic of the)",
+    "PhoneCode": "+243",
+    "PhoneFormat": "9XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 53,
+    "CountryCode": "CG",
+    "CountryName": "Congo (Republic of the)",
+    "PhoneCode": "+242",
+    "PhoneFormat": "XX XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 54,
+    "CountryCode": "CK",
+    "CountryName": "Cook Islands",
+    "PhoneCode": "+682",
+    "PhoneFormat": "XX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 55,
+    "CountryCode": "CR",
+    "CountryName": "Costa Rica",
+    "PhoneCode": "+506",
+    "PhoneFormat": "XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 56,
+    "CountryCode": "CI",
+    "CountryName": "Cote d'Ivoire",
+    "PhoneCode": "+225",
+    "PhoneFormat": "XX XX XX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 57,
+    "CountryCode": "HR",
+    "CountryName": "Croatia",
+    "PhoneCode": "+385",
+    "PhoneFormat": "9X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 58,
+    "CountryCode": "CU",
+    "CountryName": "Cuba",
+    "PhoneCode": "+53",
+    "PhoneFormat": "X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 59,
+    "CountryCode": "CW",
+    "CountryName": "Curacao",
+    "PhoneCode": "+599",
+    "PhoneFormat": "9 XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 60,
+    "CountryCode": "CY",
+    "CountryName": "Cyprus",
+    "PhoneCode": "+357",
+    "PhoneFormat": "9X XXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 61,
+    "CountryCode": "CZ",
+    "CountryName": "Czechia",
+    "PhoneCode": "+420",
+    "PhoneFormat": "6XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 62,
+    "CountryCode": "DK",
+    "CountryName": "Denmark",
+    "PhoneCode": "+45",
+    "PhoneFormat": "XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 63,
+    "CountryCode": "DJ",
+    "CountryName": "Djibouti",
+    "PhoneCode": "+253",
+    "PhoneFormat": "XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 64,
+    "CountryCode": "DM",
+    "CountryName": "Dominica",
+    "PhoneCode": "+1767",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 65,
+    "CountryCode": "DO",
+    "CountryName": "Dominican Republic",
+    "PhoneCode": "+1809",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 66,
+    "CountryCode": "EC",
+    "CountryName": "Ecuador",
+    "PhoneCode": "+593",
+    "PhoneFormat": "9X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 67,
+    "CountryCode": "EG",
+    "CountryName": "Egypt",
+    "PhoneCode": "+20",
+    "PhoneFormat": "1X XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 68,
+    "CountryCode": "SV",
+    "CountryName": "El Salvador",
+    "PhoneCode": "+503",
+    "PhoneFormat": "XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 69,
+    "CountryCode": "GQ",
+    "CountryName": "Equatorial Guinea",
+    "PhoneCode": "+240",
+    "PhoneFormat": "XXX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 70,
+    "CountryCode": "ER",
+    "CountryName": "Eritrea",
+    "PhoneCode": "+291",
+    "PhoneFormat": "X XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 71,
+    "CountryCode": "EE",
+    "CountryName": "Estonia",
+    "PhoneCode": "+372",
+    "PhoneFormat": "XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 72,
+    "CountryCode": "SZ",
+    "CountryName": "Eswatini",
+    "PhoneCode": "+268",
+    "PhoneFormat": "XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 73,
+    "CountryCode": "ET",
+    "CountryName": "Ethiopia",
+    "PhoneCode": "+251",
+    "PhoneFormat": "9X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 74,
+    "CountryCode": "FK",
+    "CountryName": "Falkland Islands",
+    "PhoneCode": "+500",
+    "PhoneFormat": "XXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 75,
+    "CountryCode": "FO",
+    "CountryName": "Faroe Islands",
+    "PhoneCode": "+298",
+    "PhoneFormat": "XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 76,
+    "CountryCode": "FJ",
+    "CountryName": "Fiji",
+    "PhoneCode": "+679",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 77,
+    "CountryCode": "FI",
+    "CountryName": "Finland",
+    "PhoneCode": "+358",
+    "PhoneFormat": "4X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 78,
+    "CountryCode": "FR",
+    "CountryName": "France",
+    "PhoneCode": "+33",
+    "PhoneFormat": "6 XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 79,
+    "CountryCode": "GF",
+    "CountryName": "French Guiana",
+    "PhoneCode": "+594",
+    "PhoneFormat": "6XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 80,
+    "CountryCode": "PF",
+    "CountryName": "French Polynesia",
+    "PhoneCode": "+689",
+    "PhoneFormat": "XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 81,
+    "CountryCode": "TF",
+    "CountryName": "French Southern Territories",
+    "PhoneCode": "+262",
+    "PhoneFormat": "XXX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 82,
+    "CountryCode": "GA",
+    "CountryName": "Gabon",
+    "PhoneCode": "+241",
+    "PhoneFormat": "XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 83,
+    "CountryCode": "GM",
+    "CountryName": "Gambia",
+    "PhoneCode": "+220",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 84,
+    "CountryCode": "GE",
+    "CountryName": "Georgia",
+    "PhoneCode": "+995",
+    "PhoneFormat": "5XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 85,
+    "CountryCode": "DE",
+    "CountryName": "Germany",
+    "PhoneCode": "+49",
+    "PhoneFormat": "1XX XXXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 86,
+    "CountryCode": "GH",
+    "CountryName": "Ghana",
+    "PhoneCode": "+233",
+    "PhoneFormat": "XX XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 87,
+    "CountryCode": "GI",
+    "CountryName": "Gibraltar",
+    "PhoneCode": "+350",
+    "PhoneFormat": "XXX XXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 88,
+    "CountryCode": "GR",
+    "CountryName": "Greece",
+    "PhoneCode": "+30",
+    "PhoneFormat": "69X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 89,
+    "CountryCode": "GL",
+    "CountryName": "Greenland",
+    "PhoneCode": "+299",
+    "PhoneFormat": "XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 90,
+    "CountryCode": "GD",
+    "CountryName": "Grenada",
+    "PhoneCode": "+1473",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 91,
+    "CountryCode": "GP",
+    "CountryName": "Guadeloupe",
+    "PhoneCode": "+590",
+    "PhoneFormat": "6XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 92,
+    "CountryCode": "GU",
+    "CountryName": "Guam",
+    "PhoneCode": "+1671",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 93,
+    "CountryCode": "GT",
+    "CountryName": "Guatemala",
+    "PhoneCode": "+502",
+    "PhoneFormat": "XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 94,
+    "CountryCode": "GG",
+    "CountryName": "Guernsey",
+    "PhoneCode": "+44",
+    "PhoneFormat": "7XXX XXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 95,
+    "CountryCode": "GN",
+    "CountryName": "Guinea",
+    "PhoneCode": "+224",
+    "PhoneFormat": "XXX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 96,
+    "CountryCode": "GW",
+    "CountryName": "Guinea-Bissau",
+    "PhoneCode": "+245",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 97,
+    "CountryCode": "GY",
+    "CountryName": "Guyana",
+    "PhoneCode": "+592",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 98,
+    "CountryCode": "HT",
+    "CountryName": "Haiti",
+    "PhoneCode": "+509",
+    "PhoneFormat": "XX XX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 99,
+    "CountryCode": "HM",
+    "CountryName": "Heard Island and McDonald Islands",
+    "PhoneCode": "+672",
+    "PhoneFormat": "XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 100,
+    "CountryCode": "HN",
+    "CountryName": "Honduras",
+    "PhoneCode": "+504",
+    "PhoneFormat": "XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 101,
+    "CountryCode": "HK",
+    "CountryName": "Hong Kong",
+    "PhoneCode": "+852",
+    "PhoneFormat": "XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 102,
+    "CountryCode": "HU",
+    "CountryName": "Hungary",
+    "PhoneCode": "+36",
+    "PhoneFormat": "2X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 103,
+    "CountryCode": "IS",
+    "CountryName": "Iceland",
+    "PhoneCode": "+354",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 104,
+    "CountryCode": "IN",
+    "CountryName": "India",
+    "PhoneCode": "+91",
+    "PhoneFormat": "9XXXX XXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 105,
+    "CountryCode": "ID",
+    "CountryName": "Indonesia",
+    "PhoneCode": "+62",
+    "PhoneFormat": "8XX XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 106,
+    "CountryCode": "IR",
+    "CountryName": "Iran",
+    "PhoneCode": "+98",
+    "PhoneFormat": "9XX XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 107,
+    "CountryCode": "IQ",
+    "CountryName": "Iraq",
+    "PhoneCode": "+964",
+    "PhoneFormat": "7XX XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 108,
+    "CountryCode": "IE",
+    "CountryName": "Ireland",
+    "PhoneCode": "+353",
+    "PhoneFormat": "8X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 109,
+    "CountryCode": "IM",
+    "CountryName": "Isle of Man",
+    "PhoneCode": "+44",
+    "PhoneFormat": "7XXX XXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 110,
+    "CountryCode": "IT",
+    "CountryName": "Italy",
+    "PhoneCode": "+39",
+    "PhoneFormat": "3XX XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 111,
+    "CountryCode": "JM",
+    "CountryName": "Jamaica",
+    "PhoneCode": "+1876",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 112,
+    "CountryCode": "JP",
+    "CountryName": "Japan",
+    "PhoneCode": "+81",
+    "PhoneFormat": "90 XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 113,
+    "CountryCode": "JE",
+    "CountryName": "Jersey",
+    "PhoneCode": "+44",
+    "PhoneFormat": "7XXX XXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 114,
+    "CountryCode": "JO",
+    "CountryName": "Jordan",
+    "PhoneCode": "+962",
+    "PhoneFormat": "7 XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 115,
+    "CountryCode": "KZ",
+    "CountryName": "Kazakhstan",
+    "PhoneCode": "+7",
+    "PhoneFormat": "7XX XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 116,
+    "CountryCode": "KE",
+    "CountryName": "Kenya",
+    "PhoneCode": "+254",
+    "PhoneFormat": "7XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 117,
+    "CountryCode": "KI",
+    "CountryName": "Kiribati",
+    "PhoneCode": "+686",
+    "PhoneFormat": "XX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 118,
+    "CountryCode": "XK",
+    "CountryName": "Kosovo",
+    "PhoneCode": "+383",
+    "PhoneFormat": "4X XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 119,
+    "CountryCode": "KW",
+    "CountryName": "Kuwait",
+    "PhoneCode": "+965",
+    "PhoneFormat": "XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 120,
+    "CountryCode": "KG",
+    "CountryName": "Kyrgyzstan",
+    "PhoneCode": "+996",
+    "PhoneFormat": "5XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 121,
+    "CountryCode": "LA",
+    "CountryName": "Laos",
+    "PhoneCode": "+856",
+    "PhoneFormat": "20 XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 122,
+    "CountryCode": "LV",
+    "CountryName": "Latvia",
+    "PhoneCode": "+371",
+    "PhoneFormat": "2X XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 123,
+    "CountryCode": "LB",
+    "CountryName": "Lebanon",
+    "PhoneCode": "+961",
+    "PhoneFormat": "XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 124,
+    "CountryCode": "LS",
+    "CountryName": "Lesotho",
+    "PhoneCode": "+266",
+    "PhoneFormat": "XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 125,
+    "CountryCode": "LR",
+    "CountryName": "Liberia",
+    "PhoneCode": "+231",
+    "PhoneFormat": "XX XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 126,
+    "CountryCode": "LY",
+    "CountryName": "Libya",
+    "PhoneCode": "+218",
+    "PhoneFormat": "9X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 127,
+    "CountryCode": "LI",
+    "CountryName": "Liechtenstein",
+    "PhoneCode": "+423",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 128,
+    "CountryCode": "LT",
+    "CountryName": "Lithuania",
+    "PhoneCode": "+370",
+    "PhoneFormat": "6XX XXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 129,
+    "CountryCode": "LU",
+    "CountryName": "Luxembourg",
+    "PhoneCode": "+352",
+    "PhoneFormat": "6XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 130,
+    "CountryCode": "MO",
+    "CountryName": "Macau",
+    "PhoneCode": "+853",
+    "PhoneFormat": "XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 131,
+    "CountryCode": "MG",
+    "CountryName": "Madagascar",
+    "PhoneCode": "+261",
+    "PhoneFormat": "3X XX XXX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 132,
+    "CountryCode": "MW",
+    "CountryName": "Malawi",
+    "PhoneCode": "+265",
+    "PhoneFormat": "XXX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 133,
+    "CountryCode": "MY",
+    "CountryName": "Malaysia",
+    "PhoneCode": "+60",
+    "PhoneFormat": "1X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 134,
+    "CountryCode": "MV",
+    "CountryName": "Maldives",
+    "PhoneCode": "+960",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 135,
+    "CountryCode": "ML",
+    "CountryName": "Mali",
+    "PhoneCode": "+223",
+    "PhoneFormat": "XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 136,
+    "CountryCode": "MT",
+    "CountryName": "Malta",
+    "PhoneCode": "+356",
+    "PhoneFormat": "9XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 137,
+    "CountryCode": "MH",
+    "CountryName": "Marshall Islands",
+    "PhoneCode": "+692",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 138,
+    "CountryCode": "MQ",
+    "CountryName": "Martinique",
+    "PhoneCode": "+596",
+    "PhoneFormat": "6XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 139,
+    "CountryCode": "MR",
+    "CountryName": "Mauritania",
+    "PhoneCode": "+222",
+    "PhoneFormat": "XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 140,
+    "CountryCode": "MU",
+    "CountryName": "Mauritius",
+    "PhoneCode": "+230",
+    "PhoneFormat": "5XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 141,
+    "CountryCode": "YT",
+    "CountryName": "Mayotte",
+    "PhoneCode": "+262",
+    "PhoneFormat": "6XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 142,
+    "CountryCode": "MX",
+    "CountryName": "Mexico",
+    "PhoneCode": "+52",
+    "PhoneFormat": "1 XXX XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 143,
+    "CountryCode": "FM",
+    "CountryName": "Micronesia",
+    "PhoneCode": "+691",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 144,
+    "CountryCode": "MD",
+    "CountryName": "Moldova",
+    "PhoneCode": "+373",
+    "PhoneFormat": "6XX XXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 145,
+    "CountryCode": "MC",
+    "CountryName": "Monaco",
+    "PhoneCode": "+377",
+    "PhoneFormat": "XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 146,
+    "CountryCode": "MN",
+    "CountryName": "Mongolia",
+    "PhoneCode": "+976",
+    "PhoneFormat": "8X XX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 147,
+    "CountryCode": "ME",
+    "CountryName": "Montenegro",
+    "PhoneCode": "+382",
+    "PhoneFormat": "6X XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 148,
+    "CountryCode": "MS",
+    "CountryName": "Montserrat",
+    "PhoneCode": "+1664",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 149,
+    "CountryCode": "MA",
+    "CountryName": "Morocco",
+    "PhoneCode": "+212",
+    "PhoneFormat": "6XX XXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 150,
+    "CountryCode": "MZ",
+    "CountryName": "Mozambique",
+    "PhoneCode": "+258",
+    "PhoneFormat": "8X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 151,
+    "CountryCode": "MM",
+    "CountryName": "Myanmar",
+    "PhoneCode": "+95",
+    "PhoneFormat": "9 XXX XXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 152,
+    "CountryCode": "NA",
+    "CountryName": "Namibia",
+    "PhoneCode": "+264",
+    "PhoneFormat": "8X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 153,
+    "CountryCode": "NR",
+    "CountryName": "Nauru",
+    "PhoneCode": "+674",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 154,
+    "CountryCode": "NP",
+    "CountryName": "Nepal",
+    "PhoneCode": "+977",
+    "PhoneFormat": "98X XXXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 155,
+    "CountryCode": "NL",
+    "CountryName": "Netherlands",
+    "PhoneCode": "+31",
+    "PhoneFormat": "6 XXXXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 156,
+    "CountryCode": "NC",
+    "CountryName": "New Caledonia",
+    "PhoneCode": "+687",
+    "PhoneFormat": "XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 157,
+    "CountryCode": "NZ",
+    "CountryName": "New Zealand",
+    "PhoneCode": "+64",
+    "PhoneFormat": "2X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 158,
+    "CountryCode": "NI",
+    "CountryName": "Nicaragua",
+    "PhoneCode": "+505",
+    "PhoneFormat": "XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 159,
+    "CountryCode": "NE",
+    "CountryName": "Niger",
+    "PhoneCode": "+227",
+    "PhoneFormat": "XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 160,
+    "CountryCode": "NG",
+    "CountryName": "Nigeria",
+    "PhoneCode": "+234",
+    "PhoneFormat": "8XX XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 161,
+    "CountryCode": "NU",
+    "CountryName": "Niue",
+    "PhoneCode": "+683",
+    "PhoneFormat": "XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 162,
+    "CountryCode": "NF",
+    "CountryName": "Norfolk Island",
+    "PhoneCode": "+672",
+    "PhoneFormat": "X XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 163,
+    "CountryCode": "MK",
+    "CountryName": "North Macedonia",
+    "PhoneCode": "+389",
+    "PhoneFormat": "7X XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 164,
+    "CountryCode": "MP",
+    "CountryName": "Northern Mariana Islands",
+    "PhoneCode": "+1670",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 165,
+    "CountryCode": "NO",
+    "CountryName": "Norway",
+    "PhoneCode": "+47",
+    "PhoneFormat": "4XX XX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 166,
+    "CountryCode": "OM",
+    "CountryName": "Oman",
+    "PhoneCode": "+968",
+    "PhoneFormat": "9XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 167,
+    "CountryCode": "PK",
+    "CountryName": "Pakistan",
+    "PhoneCode": "+92",
+    "PhoneFormat": "3XX XXXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 168,
+    "CountryCode": "PW",
+    "CountryName": "Palau",
+    "PhoneCode": "+680",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 169,
+    "CountryCode": "PS",
+    "CountryName": "Palestine",
+    "PhoneCode": "+970",
+    "PhoneFormat": "5X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 170,
+    "CountryCode": "PA",
+    "CountryName": "Panama",
+    "PhoneCode": "+507",
+    "PhoneFormat": "XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 171,
+    "CountryCode": "PG",
+    "CountryName": "Papua New Guinea",
+    "PhoneCode": "+675",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 172,
+    "CountryCode": "PY",
+    "CountryName": "Paraguay",
+    "PhoneCode": "+595",
+    "PhoneFormat": "9XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 173,
+    "CountryCode": "PE",
+    "CountryName": "Peru",
+    "PhoneCode": "+51",
+    "PhoneFormat": "9XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 174,
+    "CountryCode": "PH",
+    "CountryName": "Philippines",
+    "PhoneCode": "+63",
+    "PhoneFormat": "9XX XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 175,
+    "CountryCode": "PN",
+    "CountryName": "Pitcairn Islands",
+    "PhoneCode": "+64",
+    "PhoneFormat": "XX XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 176,
+    "CountryCode": "PL",
+    "CountryName": "Poland",
+    "PhoneCode": "+48",
+    "PhoneFormat": "XXX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 177,
+    "CountryCode": "PT",
+    "CountryName": "Portugal",
+    "PhoneCode": "+351",
+    "PhoneFormat": "9XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 178,
+    "CountryCode": "PR",
+    "CountryName": "Puerto Rico",
+    "PhoneCode": "+1787",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 179,
+    "CountryCode": "QA",
+    "CountryName": "Qatar",
+    "PhoneCode": "+974",
+    "PhoneFormat": "XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 180,
+    "CountryCode": "RE",
+    "CountryName": "Reunion",
+    "PhoneCode": "+262",
+    "PhoneFormat": "6XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 181,
+    "CountryCode": "RO",
+    "CountryName": "Romania",
+    "PhoneCode": "+40",
+    "PhoneFormat": "7XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 182,
+    "CountryCode": "RU",
+    "CountryName": "Russia",
+    "PhoneCode": "+7",
+    "PhoneFormat": "9XX XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 183,
+    "CountryCode": "RW",
+    "CountryName": "Rwanda",
+    "PhoneCode": "+250",
+    "PhoneFormat": "7XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 184,
+    "CountryCode": "BL",
+    "CountryName": "Saint Barthelemy",
+    "PhoneCode": "+590",
+    "PhoneFormat": "6XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 185,
+    "CountryCode": "SH",
+    "CountryName": "Saint Helena, Ascension and Tristan da Cunha",
+    "PhoneCode": "+290",
+    "PhoneFormat": "XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 186,
+    "CountryCode": "KN",
+    "CountryName": "Saint Kitts and Nevis",
+    "PhoneCode": "+1869",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 187,
+    "CountryCode": "LC",
+    "CountryName": "Saint Lucia",
+    "PhoneCode": "+1758",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 188,
+    "CountryCode": "MF",
+    "CountryName": "Saint Martin",
+    "PhoneCode": "+590",
+    "PhoneFormat": "6XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 189,
+    "CountryCode": "PM",
+    "CountryName": "Saint Pierre and Miquelon",
+    "PhoneCode": "+508",
+    "PhoneFormat": "XX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 190,
+    "CountryCode": "VC",
+    "CountryName": "Saint Vincent and the Grenadines",
+    "PhoneCode": "+1784",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 191,
+    "CountryCode": "WS",
+    "CountryName": "Samoa",
+    "PhoneCode": "+685",
+    "PhoneFormat": "XX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 192,
+    "CountryCode": "SM",
+    "CountryName": "San Marino",
+    "PhoneCode": "+378",
+    "PhoneFormat": "XXXX XXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 193,
+    "CountryCode": "ST",
+    "CountryName": "Sao Tome and Principe",
+    "PhoneCode": "+239",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 194,
+    "CountryCode": "SN",
+    "CountryName": "Senegal",
+    "PhoneCode": "+221",
+    "PhoneFormat": "7X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 195,
+    "CountryCode": "RS",
+    "CountryName": "Serbia",
+    "PhoneCode": "+381",
+    "PhoneFormat": "6X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 196,
+    "CountryCode": "SC",
+    "CountryName": "Seychelles",
+    "PhoneCode": "+248",
+    "PhoneFormat": "X XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 197,
+    "CountryCode": "SL",
+    "CountryName": "Sierra Leone",
+    "PhoneCode": "+232",
+    "PhoneFormat": "XX XXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 198,
+    "CountryCode": "SG",
+    "CountryName": "Singapore",
+    "PhoneCode": "+65",
+    "PhoneFormat": "XXXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 199,
+    "CountryCode": "SX",
+    "CountryName": "Sint Maarten",
+    "PhoneCode": "+1721",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 200,
+    "CountryCode": "SK",
+    "CountryName": "Slovakia",
+    "PhoneCode": "+421",
+    "PhoneFormat": "9XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 201,
+    "CountryCode": "SI",
+    "CountryName": "Slovenia",
+    "PhoneCode": "+386",
+    "PhoneFormat": "3X XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 202,
+    "CountryCode": "SB",
+    "CountryName": "Solomon Islands",
+    "PhoneCode": "+677",
+    "PhoneFormat": "XX XXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 203,
+    "CountryCode": "SO",
+    "CountryName": "Somalia",
+    "PhoneCode": "+252",
+    "PhoneFormat": "6X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 204,
+    "CountryCode": "ZA",
+    "CountryName": "South Africa",
+    "PhoneCode": "+27",
+    "PhoneFormat": "8X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 205,
+    "CountryCode": "GS",
+    "CountryName": "South Georgia and the South Sandwich Islands",
+    "PhoneCode": "+500",
+    "PhoneFormat": "XXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 206,
+    "CountryCode": "SS",
+    "CountryName": "South Sudan",
+    "PhoneCode": "+211",
+    "PhoneFormat": "9X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 207,
+    "CountryCode": "ES",
+    "CountryName": "Spain",
+    "PhoneCode": "+34",
+    "PhoneFormat": "6XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 208,
+    "CountryCode": "LK",
+    "CountryName": "Sri Lanka",
+    "PhoneCode": "+94",
+    "PhoneFormat": "7X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 209,
+    "CountryCode": "SD",
+    "CountryName": "Sudan",
+    "PhoneCode": "+249",
+    "PhoneFormat": "9X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 210,
+    "CountryCode": "SR",
+    "CountryName": "Suriname",
+    "PhoneCode": "+597",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 211,
+    "CountryCode": "SJ",
+    "CountryName": "Svalbard and Jan Mayen",
+    "PhoneCode": "+47",
+    "PhoneFormat": "XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 212,
+    "CountryCode": "SE",
+    "CountryName": "Sweden",
+    "PhoneCode": "+46",
+    "PhoneFormat": "7X XXX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 213,
+    "CountryCode": "CH",
+    "CountryName": "Switzerland",
+    "PhoneCode": "+41",
+    "PhoneFormat": "7X XXX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 214,
+    "CountryCode": "SY",
+    "CountryName": "Syria",
+    "PhoneCode": "+963",
+    "PhoneFormat": "9XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 215,
+    "CountryCode": "TW",
+    "CountryName": "Taiwan",
+    "PhoneCode": "+886",
+    "PhoneFormat": "9XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 216,
+    "CountryCode": "TJ",
+    "CountryName": "Tajikistan",
+    "PhoneCode": "+992",
+    "PhoneFormat": "9X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 217,
+    "CountryCode": "TZ",
+    "CountryName": "Tanzania",
+    "PhoneCode": "+255",
+    "PhoneFormat": "7XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 218,
+    "CountryCode": "TH",
+    "CountryName": "Thailand",
+    "PhoneCode": "+66",
+    "PhoneFormat": "8X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 219,
+    "CountryCode": "TL",
+    "CountryName": "Timor-Leste",
+    "PhoneCode": "+670",
+    "PhoneFormat": "77X XXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 220,
+    "CountryCode": "TG",
+    "CountryName": "Togo",
+    "PhoneCode": "+228",
+    "PhoneFormat": "XX XX XX XX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 221,
+    "CountryCode": "TK",
+    "CountryName": "Tokelau",
+    "PhoneCode": "+690",
+    "PhoneFormat": "XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 222,
+    "CountryCode": "TO",
+    "CountryName": "Tonga",
+    "PhoneCode": "+676",
+    "PhoneFormat": "XXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 223,
+    "CountryCode": "TT",
+    "CountryName": "Trinidad and Tobago",
+    "PhoneCode": "+1868",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 224,
+    "CountryCode": "TN",
+    "CountryName": "Tunisia",
+    "PhoneCode": "+216",
+    "PhoneFormat": "XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 225,
+    "CountryCode": "TR",
+    "CountryName": "Turkey",
+    "PhoneCode": "+90",
+    "PhoneFormat": "5XX XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 226,
+    "CountryCode": "TM",
+    "CountryName": "Turkmenistan",
+    "PhoneCode": "+993",
+    "PhoneFormat": "6X XXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 227,
+    "CountryCode": "TC",
+    "CountryName": "Turks and Caicos Islands",
+    "PhoneCode": "+1649",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 228,
+    "CountryCode": "TV",
+    "CountryName": "Tuvalu",
+    "PhoneCode": "+688",
+    "PhoneFormat": "XXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 229,
+    "CountryCode": "UG",
+    "CountryName": "Uganda",
+    "PhoneCode": "+256",
+    "PhoneFormat": "7XX XXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 230,
+    "CountryCode": "UA",
+    "CountryName": "Ukraine",
+    "PhoneCode": "+380",
+    "PhoneFormat": "XX XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 231,
+    "CountryCode": "GB",
+    "CountryName": "United Kingdom",
+    "PhoneCode": "+44",
+    "PhoneFormat": "7XXX XXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 232,
+    "CountryCode": "US",
+    "CountryName": "United States",
+    "PhoneCode": "+1",
+    "PhoneFormat": "(XXX) XXX-XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 233,
+    "CountryCode": "UM",
+    "CountryName": "United States Minor Outlying Islands",
+    "PhoneCode": "+1",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 234,
+    "CountryCode": "VI",
+    "CountryName": "United States Virgin Islands",
+    "PhoneCode": "+1340",
+    "PhoneFormat": "XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 235,
+    "CountryCode": "UY",
+    "CountryName": "Uruguay",
+    "PhoneCode": "+598",
+    "PhoneFormat": "9X XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 236,
+    "CountryCode": "UZ",
+    "CountryName": "Uzbekistan",
+    "PhoneCode": "+998",
+    "PhoneFormat": "9X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 237,
+    "CountryCode": "VU",
+    "CountryName": "Vanuatu",
+    "PhoneCode": "+678",
+    "PhoneFormat": "XXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 238,
+    "CountryCode": "VA",
+    "CountryName": "Vatican City",
+    "PhoneCode": "+379",
+    "PhoneFormat": "XXXXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 239,
+    "CountryCode": "VE",
+    "CountryName": "Venezuela",
+    "PhoneCode": "+58",
+    "PhoneFormat": "4XX XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 240,
+    "CountryCode": "VN",
+    "CountryName": "Vietnam",
+    "PhoneCode": "+84",
+    "PhoneFormat": "9X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 241,
+    "CountryCode": "WF",
+    "CountryName": "Wallis and Futuna",
+    "PhoneCode": "+681",
+    "PhoneFormat": "XX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 242,
+    "CountryCode": "EH",
+    "CountryName": "Western Sahara",
+    "PhoneCode": "+212",
+    "PhoneFormat": "6XX XXXXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 243,
+    "CountryCode": "YE",
+    "CountryName": "Yemen",
+    "PhoneCode": "+967",
+    "PhoneFormat": "7XX XXX XXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 244,
+    "CountryCode": "ZM",
+    "CountryName": "Zambia",
+    "PhoneCode": "+260",
+    "PhoneFormat": "9X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 245,
+    "CountryCode": "ZW",
+    "CountryName": "Zimbabwe",
+    "PhoneCode": "+263",
+    "PhoneFormat": "7X XXX XXXX",
+    "IsActive": true,
+    "_etag": "\"1\""
+  }
 ]

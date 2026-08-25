@@ -1,6 +1,5866 @@
 [
-  {"ID":1,"CityName":"Riyadh","Country":1,"CountryCityKey":"SA|riyadh","IsActive":true,"_etag":"\"1\""},
-  {"ID":2,"CityName":"Jeddah","Country":1,"CountryCityKey":"SA|jeddah","IsActive":true,"_etag":"\"1\""},
-  {"ID":3,"CityName":"Dubai","Country":2,"CountryCityKey":"AE|dubai","IsActive":true,"_etag":"\"1\""},
-  {"ID":4,"CityName":"Abu Dhabi","Country":2,"CountryCityKey":"AE|abu dhabi","IsActive":true,"_etag":"\"1\""}
+  {
+    "ID": 1,
+    "CityName": "Riyadh",
+    "Country": 1,
+    "CountryCityKey": "SA|riyadh",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 2,
+    "CityName": "Jeddah",
+    "Country": 1,
+    "CountryCityKey": "SA|jeddah",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 3,
+    "CityName": "Dubai",
+    "Country": 2,
+    "CountryCityKey": "AE|dubai",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 4,
+    "CityName": "Abu Dhabi",
+    "Country": 2,
+    "CountryCityKey": "AE|abu-dhabi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 5,
+    "CityName": "Kabul",
+    "Country": 3,
+    "CountryCityKey": "AF|kabul",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 6,
+    "CityName": "Kandahar",
+    "Country": 3,
+    "CountryCityKey": "AF|kandahar",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 7,
+    "CityName": "Herat",
+    "Country": 3,
+    "CountryCityKey": "AF|herat",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 8,
+    "CityName": "Mazar-i-Sharif",
+    "Country": 3,
+    "CountryCityKey": "AF|mazar-i-sharif",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 9,
+    "CityName": "Jalalabad",
+    "Country": 3,
+    "CountryCityKey": "AF|jalalabad",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 10,
+    "CityName": "Tirana",
+    "Country": 4,
+    "CountryCityKey": "AL|tirana",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 11,
+    "CityName": "Durres",
+    "Country": 4,
+    "CountryCityKey": "AL|durres",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 12,
+    "CityName": "Vlore",
+    "Country": 4,
+    "CountryCityKey": "AL|vlore",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 13,
+    "CityName": "Shkoder",
+    "Country": 4,
+    "CountryCityKey": "AL|shkoder",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 14,
+    "CityName": "Algiers",
+    "Country": 5,
+    "CountryCityKey": "DZ|algiers",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 15,
+    "CityName": "Oran",
+    "Country": 5,
+    "CountryCityKey": "DZ|oran",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 16,
+    "CityName": "Constantine",
+    "Country": 5,
+    "CountryCityKey": "DZ|constantine",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 17,
+    "CityName": "Annaba",
+    "Country": 5,
+    "CountryCityKey": "DZ|annaba",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 18,
+    "CityName": "Pago Pago",
+    "Country": 6,
+    "CountryCityKey": "AS|pago-pago",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 19,
+    "CityName": "Tafuna",
+    "Country": 6,
+    "CountryCityKey": "AS|tafuna",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 20,
+    "CityName": "Andorra la Vella",
+    "Country": 7,
+    "CountryCityKey": "AD|andorra-la-vella",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 21,
+    "CityName": "Escaldes-Engordany",
+    "Country": 7,
+    "CountryCityKey": "AD|escaldes-engordany",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 22,
+    "CityName": "Encamp",
+    "Country": 7,
+    "CountryCityKey": "AD|encamp",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 23,
+    "CityName": "Luanda",
+    "Country": 8,
+    "CountryCityKey": "AO|luanda",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 24,
+    "CityName": "Huambo",
+    "Country": 8,
+    "CountryCityKey": "AO|huambo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 25,
+    "CityName": "Lobito",
+    "Country": 8,
+    "CountryCityKey": "AO|lobito",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 26,
+    "CityName": "Benguela",
+    "Country": 8,
+    "CountryCityKey": "AO|benguela",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 27,
+    "CityName": "The Valley",
+    "Country": 9,
+    "CountryCityKey": "AI|the-valley",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 28,
+    "CityName": "Blowing Point",
+    "Country": 9,
+    "CountryCityKey": "AI|blowing-point",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 29,
+    "CityName": "McMurdo Station",
+    "Country": 10,
+    "CountryCityKey": "AQ|mcmurdo-station",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 30,
+    "CityName": "St. John's",
+    "Country": 11,
+    "CountryCityKey": "AG|st-john-s",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 31,
+    "CityName": "All Saints",
+    "Country": 11,
+    "CountryCityKey": "AG|all-saints",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 32,
+    "CityName": "Liberta",
+    "Country": 11,
+    "CountryCityKey": "AG|liberta",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 33,
+    "CityName": "Buenos Aires",
+    "Country": 12,
+    "CountryCityKey": "AR|buenos-aires",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 34,
+    "CityName": "Cordoba",
+    "Country": 12,
+    "CountryCityKey": "AR|cordoba",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 35,
+    "CityName": "Rosario",
+    "Country": 12,
+    "CountryCityKey": "AR|rosario",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 36,
+    "CityName": "Mendoza",
+    "Country": 12,
+    "CountryCityKey": "AR|mendoza",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 37,
+    "CityName": "La Plata",
+    "Country": 12,
+    "CountryCityKey": "AR|la-plata",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 38,
+    "CityName": "Yerevan",
+    "Country": 13,
+    "CountryCityKey": "AM|yerevan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 39,
+    "CityName": "Gyumri",
+    "Country": 13,
+    "CountryCityKey": "AM|gyumri",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 40,
+    "CityName": "Vanadzor",
+    "Country": 13,
+    "CountryCityKey": "AM|vanadzor",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 41,
+    "CityName": "Oranjestad",
+    "Country": 14,
+    "CountryCityKey": "AW|oranjestad",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 42,
+    "CityName": "San Nicolas",
+    "Country": 14,
+    "CountryCityKey": "AW|san-nicolas",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 43,
+    "CityName": "Canberra",
+    "Country": 15,
+    "CountryCityKey": "AU|canberra",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 44,
+    "CityName": "Sydney",
+    "Country": 15,
+    "CountryCityKey": "AU|sydney",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 45,
+    "CityName": "Melbourne",
+    "Country": 15,
+    "CountryCityKey": "AU|melbourne",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 46,
+    "CityName": "Brisbane",
+    "Country": 15,
+    "CountryCityKey": "AU|brisbane",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 47,
+    "CityName": "Perth",
+    "Country": 15,
+    "CountryCityKey": "AU|perth",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 48,
+    "CityName": "Vienna",
+    "Country": 16,
+    "CountryCityKey": "AT|vienna",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 49,
+    "CityName": "Graz",
+    "Country": 16,
+    "CountryCityKey": "AT|graz",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 50,
+    "CityName": "Linz",
+    "Country": 16,
+    "CountryCityKey": "AT|linz",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 51,
+    "CityName": "Salzburg",
+    "Country": 16,
+    "CountryCityKey": "AT|salzburg",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 52,
+    "CityName": "Baku",
+    "Country": 17,
+    "CountryCityKey": "AZ|baku",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 53,
+    "CityName": "Ganja",
+    "Country": 17,
+    "CountryCityKey": "AZ|ganja",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 54,
+    "CityName": "Sumqayit",
+    "Country": 17,
+    "CountryCityKey": "AZ|sumqayit",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 55,
+    "CityName": "Nassau",
+    "Country": 18,
+    "CountryCityKey": "BS|nassau",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 56,
+    "CityName": "Freeport",
+    "Country": 18,
+    "CountryCityKey": "BS|freeport",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 57,
+    "CityName": "West End",
+    "Country": 18,
+    "CountryCityKey": "BS|west-end",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 58,
+    "CityName": "Manama",
+    "Country": 19,
+    "CountryCityKey": "BH|manama",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 59,
+    "CityName": "Muharraq",
+    "Country": 19,
+    "CountryCityKey": "BH|muharraq",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 60,
+    "CityName": "Riffa",
+    "Country": 19,
+    "CountryCityKey": "BH|riffa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 61,
+    "CityName": "Dhaka",
+    "Country": 20,
+    "CountryCityKey": "BD|dhaka",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 62,
+    "CityName": "Chittagong",
+    "Country": 20,
+    "CountryCityKey": "BD|chittagong",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 63,
+    "CityName": "Khulna",
+    "Country": 20,
+    "CountryCityKey": "BD|khulna",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 64,
+    "CityName": "Rajshahi",
+    "Country": 20,
+    "CountryCityKey": "BD|rajshahi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 65,
+    "CityName": "Bridgetown",
+    "Country": 21,
+    "CountryCityKey": "BB|bridgetown",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 66,
+    "CityName": "Speightstown",
+    "Country": 21,
+    "CountryCityKey": "BB|speightstown",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 67,
+    "CityName": "Oistins",
+    "Country": 21,
+    "CountryCityKey": "BB|oistins",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 68,
+    "CityName": "Minsk",
+    "Country": 22,
+    "CountryCityKey": "BY|minsk",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 69,
+    "CityName": "Gomel",
+    "Country": 22,
+    "CountryCityKey": "BY|gomel",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 70,
+    "CityName": "Mogilev",
+    "Country": 22,
+    "CountryCityKey": "BY|mogilev",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 71,
+    "CityName": "Vitebsk",
+    "Country": 22,
+    "CountryCityKey": "BY|vitebsk",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 72,
+    "CityName": "Brussels",
+    "Country": 23,
+    "CountryCityKey": "BE|brussels",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 73,
+    "CityName": "Antwerp",
+    "Country": 23,
+    "CountryCityKey": "BE|antwerp",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 74,
+    "CityName": "Ghent",
+    "Country": 23,
+    "CountryCityKey": "BE|ghent",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 75,
+    "CityName": "Bruges",
+    "Country": 23,
+    "CountryCityKey": "BE|bruges",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 76,
+    "CityName": "Belmopan",
+    "Country": 24,
+    "CountryCityKey": "BZ|belmopan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 77,
+    "CityName": "Belize City",
+    "Country": 24,
+    "CountryCityKey": "BZ|belize-city",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 78,
+    "CityName": "San Ignacio",
+    "Country": 24,
+    "CountryCityKey": "BZ|san-ignacio",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 79,
+    "CityName": "Porto-Novo",
+    "Country": 25,
+    "CountryCityKey": "BJ|porto-novo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 80,
+    "CityName": "Cotonou",
+    "Country": 25,
+    "CountryCityKey": "BJ|cotonou",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 81,
+    "CityName": "Parakou",
+    "Country": 25,
+    "CountryCityKey": "BJ|parakou",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 82,
+    "CityName": "Hamilton",
+    "Country": 26,
+    "CountryCityKey": "BM|hamilton",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 83,
+    "CityName": "St. George's",
+    "Country": 26,
+    "CountryCityKey": "BM|st-george-s",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 84,
+    "CityName": "Thimphu",
+    "Country": 27,
+    "CountryCityKey": "BT|thimphu",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 85,
+    "CityName": "Phuntsholing",
+    "Country": 27,
+    "CountryCityKey": "BT|phuntsholing",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 86,
+    "CityName": "Punakha",
+    "Country": 27,
+    "CountryCityKey": "BT|punakha",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 87,
+    "CityName": "La Paz",
+    "Country": 28,
+    "CountryCityKey": "BO|la-paz",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 88,
+    "CityName": "Santa Cruz de la Sierra",
+    "Country": 28,
+    "CountryCityKey": "BO|santa-cruz-de-la-sierra",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 89,
+    "CityName": "Cochabamba",
+    "Country": 28,
+    "CountryCityKey": "BO|cochabamba",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 90,
+    "CityName": "Sucre",
+    "Country": 28,
+    "CountryCityKey": "BO|sucre",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 91,
+    "CityName": "Sarajevo",
+    "Country": 29,
+    "CountryCityKey": "BA|sarajevo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 92,
+    "CityName": "Banja Luka",
+    "Country": 29,
+    "CountryCityKey": "BA|banja-luka",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 93,
+    "CityName": "Mostar",
+    "Country": 29,
+    "CountryCityKey": "BA|mostar",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 94,
+    "CityName": "Gaborone",
+    "Country": 30,
+    "CountryCityKey": "BW|gaborone",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 95,
+    "CityName": "Francistown",
+    "Country": 30,
+    "CountryCityKey": "BW|francistown",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 96,
+    "CityName": "Molepolole",
+    "Country": 30,
+    "CountryCityKey": "BW|molepolole",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 97,
+    "CityName": "Uninhabited",
+    "Country": 31,
+    "CountryCityKey": "BV|uninhabited",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 98,
+    "CityName": "Brasilia",
+    "Country": 32,
+    "CountryCityKey": "BR|brasilia",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 99,
+    "CityName": "Sao Paulo",
+    "Country": 32,
+    "CountryCityKey": "BR|sao-paulo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 100,
+    "CityName": "Rio de Janeiro",
+    "Country": 32,
+    "CountryCityKey": "BR|rio-de-janeiro",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 101,
+    "CityName": "Salvador",
+    "Country": 32,
+    "CountryCityKey": "BR|salvador",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 102,
+    "CityName": "Fortaleza",
+    "Country": 32,
+    "CountryCityKey": "BR|fortaleza",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 103,
+    "CityName": "Diego Garcia",
+    "Country": 33,
+    "CountryCityKey": "IO|diego-garcia",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 104,
+    "CityName": "Road Town",
+    "Country": 34,
+    "CountryCityKey": "VG|road-town",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 105,
+    "CityName": "Spanish Town",
+    "Country": 34,
+    "CountryCityKey": "VG|spanish-town",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 106,
+    "CityName": "Bandar Seri Begawan",
+    "Country": 35,
+    "CountryCityKey": "BN|bandar-seri-begawan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 107,
+    "CityName": "Kuala Belait",
+    "Country": 35,
+    "CountryCityKey": "BN|kuala-belait",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 108,
+    "CityName": "Seria",
+    "Country": 35,
+    "CountryCityKey": "BN|seria",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 109,
+    "CityName": "Sofia",
+    "Country": 36,
+    "CountryCityKey": "BG|sofia",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 110,
+    "CityName": "Plovdiv",
+    "Country": 36,
+    "CountryCityKey": "BG|plovdiv",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 111,
+    "CityName": "Varna",
+    "Country": 36,
+    "CountryCityKey": "BG|varna",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 112,
+    "CityName": "Burgas",
+    "Country": 36,
+    "CountryCityKey": "BG|burgas",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 113,
+    "CityName": "Ouagadougou",
+    "Country": 37,
+    "CountryCityKey": "BF|ouagadougou",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 114,
+    "CityName": "Bobo-Dioulasso",
+    "Country": 37,
+    "CountryCityKey": "BF|bobo-dioulasso",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 115,
+    "CityName": "Koudougou",
+    "Country": 37,
+    "CountryCityKey": "BF|koudougou",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 116,
+    "CityName": "Gitega",
+    "Country": 38,
+    "CountryCityKey": "BI|gitega",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 117,
+    "CityName": "Bujumbura",
+    "Country": 38,
+    "CountryCityKey": "BI|bujumbura",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 118,
+    "CityName": "Ngozi",
+    "Country": 38,
+    "CountryCityKey": "BI|ngozi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 119,
+    "CityName": "Praia",
+    "Country": 39,
+    "CountryCityKey": "CV|praia",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 120,
+    "CityName": "Mindelo",
+    "Country": 39,
+    "CountryCityKey": "CV|mindelo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 121,
+    "CityName": "Santa Maria",
+    "Country": 39,
+    "CountryCityKey": "CV|santa-maria",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 122,
+    "CityName": "Phnom Penh",
+    "Country": 40,
+    "CountryCityKey": "KH|phnom-penh",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 123,
+    "CityName": "Siem Reap",
+    "Country": 40,
+    "CountryCityKey": "KH|siem-reap",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 124,
+    "CityName": "Battambang",
+    "Country": 40,
+    "CountryCityKey": "KH|battambang",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 125,
+    "CityName": "Yaounde",
+    "Country": 41,
+    "CountryCityKey": "CM|yaounde",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 126,
+    "CityName": "Douala",
+    "Country": 41,
+    "CountryCityKey": "CM|douala",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 127,
+    "CityName": "Garoua",
+    "Country": 41,
+    "CountryCityKey": "CM|garoua",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 128,
+    "CityName": "Ottawa",
+    "Country": 42,
+    "CountryCityKey": "CA|ottawa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 129,
+    "CityName": "Toronto",
+    "Country": 42,
+    "CountryCityKey": "CA|toronto",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 130,
+    "CityName": "Vancouver",
+    "Country": 42,
+    "CountryCityKey": "CA|vancouver",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 131,
+    "CityName": "Montreal",
+    "Country": 42,
+    "CountryCityKey": "CA|montreal",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 132,
+    "CityName": "Calgary",
+    "Country": 42,
+    "CountryCityKey": "CA|calgary",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 133,
+    "CityName": "George Town",
+    "Country": 43,
+    "CountryCityKey": "KY|george-town",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 134,
+    "CityName": "West Bay",
+    "Country": 43,
+    "CountryCityKey": "KY|west-bay",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 135,
+    "CityName": "Bangui",
+    "Country": 44,
+    "CountryCityKey": "CF|bangui",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 136,
+    "CityName": "Bimbo",
+    "Country": 44,
+    "CountryCityKey": "CF|bimbo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 137,
+    "CityName": "Berberati",
+    "Country": 44,
+    "CountryCityKey": "CF|berberati",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 138,
+    "CityName": "N'Djamena",
+    "Country": 45,
+    "CountryCityKey": "TD|n-djamena",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 139,
+    "CityName": "Moundou",
+    "Country": 45,
+    "CountryCityKey": "TD|moundou",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 140,
+    "CityName": "Sarh",
+    "Country": 45,
+    "CountryCityKey": "TD|sarh",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 141,
+    "CityName": "Santiago",
+    "Country": 46,
+    "CountryCityKey": "CL|santiago",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 142,
+    "CityName": "Valparaiso",
+    "Country": 46,
+    "CountryCityKey": "CL|valparaiso",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 143,
+    "CityName": "Concepcion",
+    "Country": 46,
+    "CountryCityKey": "CL|concepcion",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 144,
+    "CityName": "Antofagasta",
+    "Country": 46,
+    "CountryCityKey": "CL|antofagasta",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 145,
+    "CityName": "Beijing",
+    "Country": 47,
+    "CountryCityKey": "CN|beijing",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 146,
+    "CityName": "Shanghai",
+    "Country": 47,
+    "CountryCityKey": "CN|shanghai",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 147,
+    "CityName": "Guangzhou",
+    "Country": 47,
+    "CountryCityKey": "CN|guangzhou",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 148,
+    "CityName": "Shenzhen",
+    "Country": 47,
+    "CountryCityKey": "CN|shenzhen",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 149,
+    "CityName": "Chengdu",
+    "Country": 47,
+    "CountryCityKey": "CN|chengdu",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 150,
+    "CityName": "Flying Fish Cove",
+    "Country": 48,
+    "CountryCityKey": "CX|flying-fish-cove",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 151,
+    "CityName": "West Island",
+    "Country": 49,
+    "CountryCityKey": "CC|west-island",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 152,
+    "CityName": "Home Island",
+    "Country": 49,
+    "CountryCityKey": "CC|home-island",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 153,
+    "CityName": "Bogota",
+    "Country": 50,
+    "CountryCityKey": "CO|bogota",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 154,
+    "CityName": "Medellin",
+    "Country": 50,
+    "CountryCityKey": "CO|medellin",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 155,
+    "CityName": "Cali",
+    "Country": 50,
+    "CountryCityKey": "CO|cali",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 156,
+    "CityName": "Barranquilla",
+    "Country": 50,
+    "CountryCityKey": "CO|barranquilla",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 157,
+    "CityName": "Moroni",
+    "Country": 51,
+    "CountryCityKey": "KM|moroni",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 158,
+    "CityName": "Moutsamoudou",
+    "Country": 51,
+    "CountryCityKey": "KM|moutsamoudou",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 159,
+    "CityName": "Fomboni",
+    "Country": 51,
+    "CountryCityKey": "KM|fomboni",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 160,
+    "CityName": "Kinshasa",
+    "Country": 52,
+    "CountryCityKey": "CD|kinshasa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 161,
+    "CityName": "Lubumbashi",
+    "Country": 52,
+    "CountryCityKey": "CD|lubumbashi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 162,
+    "CityName": "Mbuji-Mayi",
+    "Country": 52,
+    "CountryCityKey": "CD|mbuji-mayi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 163,
+    "CityName": "Kisangani",
+    "Country": 52,
+    "CountryCityKey": "CD|kisangani",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 164,
+    "CityName": "Brazzaville",
+    "Country": 53,
+    "CountryCityKey": "CG|brazzaville",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 165,
+    "CityName": "Pointe-Noire",
+    "Country": 53,
+    "CountryCityKey": "CG|pointe-noire",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 166,
+    "CityName": "Dolisie",
+    "Country": 53,
+    "CountryCityKey": "CG|dolisie",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 167,
+    "CityName": "Avarua",
+    "Country": 54,
+    "CountryCityKey": "CK|avarua",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 168,
+    "CityName": "Arorangi",
+    "Country": 54,
+    "CountryCityKey": "CK|arorangi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 169,
+    "CityName": "San Jose",
+    "Country": 55,
+    "CountryCityKey": "CR|san-jose",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 170,
+    "CityName": "Alajuela",
+    "Country": 55,
+    "CountryCityKey": "CR|alajuela",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 171,
+    "CityName": "Cartago",
+    "Country": 55,
+    "CountryCityKey": "CR|cartago",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 172,
+    "CityName": "Limon",
+    "Country": 55,
+    "CountryCityKey": "CR|limon",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 173,
+    "CityName": "Yamoussoukro",
+    "Country": 56,
+    "CountryCityKey": "CI|yamoussoukro",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 174,
+    "CityName": "Abidjan",
+    "Country": 56,
+    "CountryCityKey": "CI|abidjan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 175,
+    "CityName": "Bouake",
+    "Country": 56,
+    "CountryCityKey": "CI|bouake",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 176,
+    "CityName": "Zagreb",
+    "Country": 57,
+    "CountryCityKey": "HR|zagreb",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 177,
+    "CityName": "Split",
+    "Country": 57,
+    "CountryCityKey": "HR|split",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 178,
+    "CityName": "Rijeka",
+    "Country": 57,
+    "CountryCityKey": "HR|rijeka",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 179,
+    "CityName": "Osijek",
+    "Country": 57,
+    "CountryCityKey": "HR|osijek",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 180,
+    "CityName": "Havana",
+    "Country": 58,
+    "CountryCityKey": "CU|havana",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 181,
+    "CityName": "Santiago de Cuba",
+    "Country": 58,
+    "CountryCityKey": "CU|santiago-de-cuba",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 182,
+    "CityName": "Camaguey",
+    "Country": 58,
+    "CountryCityKey": "CU|camaguey",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 183,
+    "CityName": "Willemstad",
+    "Country": 59,
+    "CountryCityKey": "CW|willemstad",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 184,
+    "CityName": "Nicosia",
+    "Country": 60,
+    "CountryCityKey": "CY|nicosia",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 185,
+    "CityName": "Limassol",
+    "Country": 60,
+    "CountryCityKey": "CY|limassol",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 186,
+    "CityName": "Larnaca",
+    "Country": 60,
+    "CountryCityKey": "CY|larnaca",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 187,
+    "CityName": "Paphos",
+    "Country": 60,
+    "CountryCityKey": "CY|paphos",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 188,
+    "CityName": "Prague",
+    "Country": 61,
+    "CountryCityKey": "CZ|prague",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 189,
+    "CityName": "Brno",
+    "Country": 61,
+    "CountryCityKey": "CZ|brno",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 190,
+    "CityName": "Ostrava",
+    "Country": 61,
+    "CountryCityKey": "CZ|ostrava",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 191,
+    "CityName": "Plzen",
+    "Country": 61,
+    "CountryCityKey": "CZ|plzen",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 192,
+    "CityName": "Copenhagen",
+    "Country": 62,
+    "CountryCityKey": "DK|copenhagen",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 193,
+    "CityName": "Aarhus",
+    "Country": 62,
+    "CountryCityKey": "DK|aarhus",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 194,
+    "CityName": "Odense",
+    "Country": 62,
+    "CountryCityKey": "DK|odense",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 195,
+    "CityName": "Aalborg",
+    "Country": 62,
+    "CountryCityKey": "DK|aalborg",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 196,
+    "CityName": "Djibouti City",
+    "Country": 63,
+    "CountryCityKey": "DJ|djibouti-city",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 197,
+    "CityName": "Ali Sabieh",
+    "Country": 63,
+    "CountryCityKey": "DJ|ali-sabieh",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 198,
+    "CityName": "Tadjourah",
+    "Country": 63,
+    "CountryCityKey": "DJ|tadjourah",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 199,
+    "CityName": "Roseau",
+    "Country": 64,
+    "CountryCityKey": "DM|roseau",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 200,
+    "CityName": "Portsmouth",
+    "Country": 64,
+    "CountryCityKey": "DM|portsmouth",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 201,
+    "CityName": "Marigot",
+    "Country": 64,
+    "CountryCityKey": "DM|marigot",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 202,
+    "CityName": "Santo Domingo",
+    "Country": 65,
+    "CountryCityKey": "DO|santo-domingo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 203,
+    "CityName": "Santiago de los Caballeros",
+    "Country": 65,
+    "CountryCityKey": "DO|santiago-de-los-caballeros",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 204,
+    "CityName": "La Romana",
+    "Country": 65,
+    "CountryCityKey": "DO|la-romana",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 205,
+    "CityName": "Quito",
+    "Country": 66,
+    "CountryCityKey": "EC|quito",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 206,
+    "CityName": "Guayaquil",
+    "Country": 66,
+    "CountryCityKey": "EC|guayaquil",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 207,
+    "CityName": "Cuenca",
+    "Country": 66,
+    "CountryCityKey": "EC|cuenca",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 208,
+    "CityName": "Cairo",
+    "Country": 67,
+    "CountryCityKey": "EG|cairo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 209,
+    "CityName": "Alexandria",
+    "Country": 67,
+    "CountryCityKey": "EG|alexandria",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 210,
+    "CityName": "Giza",
+    "Country": 67,
+    "CountryCityKey": "EG|giza",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 211,
+    "CityName": "Luxor",
+    "Country": 67,
+    "CountryCityKey": "EG|luxor",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 212,
+    "CityName": "San Salvador",
+    "Country": 68,
+    "CountryCityKey": "SV|san-salvador",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 213,
+    "CityName": "Santa Ana",
+    "Country": 68,
+    "CountryCityKey": "SV|santa-ana",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 214,
+    "CityName": "San Miguel",
+    "Country": 68,
+    "CountryCityKey": "SV|san-miguel",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 215,
+    "CityName": "Malabo",
+    "Country": 69,
+    "CountryCityKey": "GQ|malabo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 216,
+    "CityName": "Bata",
+    "Country": 69,
+    "CountryCityKey": "GQ|bata",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 217,
+    "CityName": "Ebebiyin",
+    "Country": 69,
+    "CountryCityKey": "GQ|ebebiyin",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 218,
+    "CityName": "Asmara",
+    "Country": 70,
+    "CountryCityKey": "ER|asmara",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 219,
+    "CityName": "Keren",
+    "Country": 70,
+    "CountryCityKey": "ER|keren",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 220,
+    "CityName": "Massawa",
+    "Country": 70,
+    "CountryCityKey": "ER|massawa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 221,
+    "CityName": "Tallinn",
+    "Country": 71,
+    "CountryCityKey": "EE|tallinn",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 222,
+    "CityName": "Tartu",
+    "Country": 71,
+    "CountryCityKey": "EE|tartu",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 223,
+    "CityName": "Narva",
+    "Country": 71,
+    "CountryCityKey": "EE|narva",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 224,
+    "CityName": "Mbabane",
+    "Country": 72,
+    "CountryCityKey": "SZ|mbabane",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 225,
+    "CityName": "Manzini",
+    "Country": 72,
+    "CountryCityKey": "SZ|manzini",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 226,
+    "CityName": "Lobamba",
+    "Country": 72,
+    "CountryCityKey": "SZ|lobamba",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 227,
+    "CityName": "Addis Ababa",
+    "Country": 73,
+    "CountryCityKey": "ET|addis-ababa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 228,
+    "CityName": "Dire Dawa",
+    "Country": 73,
+    "CountryCityKey": "ET|dire-dawa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 229,
+    "CityName": "Mek'ele",
+    "Country": 73,
+    "CountryCityKey": "ET|mek-ele",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 230,
+    "CityName": "Gondar",
+    "Country": 73,
+    "CountryCityKey": "ET|gondar",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 231,
+    "CityName": "Stanley",
+    "Country": 74,
+    "CountryCityKey": "FK|stanley",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 232,
+    "CityName": "Torshavn",
+    "Country": 75,
+    "CountryCityKey": "FO|torshavn",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 233,
+    "CityName": "Klaksvik",
+    "Country": 75,
+    "CountryCityKey": "FO|klaksvik",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 234,
+    "CityName": "Suva",
+    "Country": 76,
+    "CountryCityKey": "FJ|suva",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 235,
+    "CityName": "Nadi",
+    "Country": 76,
+    "CountryCityKey": "FJ|nadi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 236,
+    "CityName": "Lautoka",
+    "Country": 76,
+    "CountryCityKey": "FJ|lautoka",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 237,
+    "CityName": "Helsinki",
+    "Country": 77,
+    "CountryCityKey": "FI|helsinki",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 238,
+    "CityName": "Espoo",
+    "Country": 77,
+    "CountryCityKey": "FI|espoo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 239,
+    "CityName": "Tampere",
+    "Country": 77,
+    "CountryCityKey": "FI|tampere",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 240,
+    "CityName": "Turku",
+    "Country": 77,
+    "CountryCityKey": "FI|turku",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 241,
+    "CityName": "Paris",
+    "Country": 78,
+    "CountryCityKey": "FR|paris",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 242,
+    "CityName": "Marseille",
+    "Country": 78,
+    "CountryCityKey": "FR|marseille",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 243,
+    "CityName": "Lyon",
+    "Country": 78,
+    "CountryCityKey": "FR|lyon",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 244,
+    "CityName": "Toulouse",
+    "Country": 78,
+    "CountryCityKey": "FR|toulouse",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 245,
+    "CityName": "Nice",
+    "Country": 78,
+    "CountryCityKey": "FR|nice",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 246,
+    "CityName": "Cayenne",
+    "Country": 79,
+    "CountryCityKey": "GF|cayenne",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 247,
+    "CityName": "Kourou",
+    "Country": 79,
+    "CountryCityKey": "GF|kourou",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 248,
+    "CityName": "Papeete",
+    "Country": 80,
+    "CountryCityKey": "PF|papeete",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 249,
+    "CityName": "Faaa",
+    "Country": 80,
+    "CountryCityKey": "PF|faaa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 250,
+    "CityName": "Port-aux-Francais",
+    "Country": 81,
+    "CountryCityKey": "TF|port-aux-francais",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 251,
+    "CityName": "Libreville",
+    "Country": 82,
+    "CountryCityKey": "GA|libreville",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 252,
+    "CityName": "Port-Gentil",
+    "Country": 82,
+    "CountryCityKey": "GA|port-gentil",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 253,
+    "CityName": "Franceville",
+    "Country": 82,
+    "CountryCityKey": "GA|franceville",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 254,
+    "CityName": "Banjul",
+    "Country": 83,
+    "CountryCityKey": "GM|banjul",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 255,
+    "CityName": "Serekunda",
+    "Country": 83,
+    "CountryCityKey": "GM|serekunda",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 256,
+    "CityName": "Brikama",
+    "Country": 83,
+    "CountryCityKey": "GM|brikama",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 257,
+    "CityName": "Tbilisi",
+    "Country": 84,
+    "CountryCityKey": "GE|tbilisi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 258,
+    "CityName": "Batumi",
+    "Country": 84,
+    "CountryCityKey": "GE|batumi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 259,
+    "CityName": "Kutaisi",
+    "Country": 84,
+    "CountryCityKey": "GE|kutaisi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 260,
+    "CityName": "Berlin",
+    "Country": 85,
+    "CountryCityKey": "DE|berlin",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 261,
+    "CityName": "Hamburg",
+    "Country": 85,
+    "CountryCityKey": "DE|hamburg",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 262,
+    "CityName": "Munich",
+    "Country": 85,
+    "CountryCityKey": "DE|munich",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 263,
+    "CityName": "Cologne",
+    "Country": 85,
+    "CountryCityKey": "DE|cologne",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 264,
+    "CityName": "Frankfurt",
+    "Country": 85,
+    "CountryCityKey": "DE|frankfurt",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 265,
+    "CityName": "Accra",
+    "Country": 86,
+    "CountryCityKey": "GH|accra",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 266,
+    "CityName": "Kumasi",
+    "Country": 86,
+    "CountryCityKey": "GH|kumasi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 267,
+    "CityName": "Tamale",
+    "Country": 86,
+    "CountryCityKey": "GH|tamale",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 268,
+    "CityName": "Gibraltar",
+    "Country": 87,
+    "CountryCityKey": "GI|gibraltar",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 269,
+    "CityName": "Athens",
+    "Country": 88,
+    "CountryCityKey": "GR|athens",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 270,
+    "CityName": "Thessaloniki",
+    "Country": 88,
+    "CountryCityKey": "GR|thessaloniki",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 271,
+    "CityName": "Patras",
+    "Country": 88,
+    "CountryCityKey": "GR|patras",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 272,
+    "CityName": "Heraklion",
+    "Country": 88,
+    "CountryCityKey": "GR|heraklion",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 273,
+    "CityName": "Nuuk",
+    "Country": 89,
+    "CountryCityKey": "GL|nuuk",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 274,
+    "CityName": "Sisimiut",
+    "Country": 89,
+    "CountryCityKey": "GL|sisimiut",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 275,
+    "CityName": "Ilulissat",
+    "Country": 89,
+    "CountryCityKey": "GL|ilulissat",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 276,
+    "CityName": "St. George's",
+    "Country": 90,
+    "CountryCityKey": "GD|st-george-s",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 277,
+    "CityName": "Gouyave",
+    "Country": 90,
+    "CountryCityKey": "GD|gouyave",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 278,
+    "CityName": "Grenville",
+    "Country": 90,
+    "CountryCityKey": "GD|grenville",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 279,
+    "CityName": "Basse-Terre",
+    "Country": 91,
+    "CountryCityKey": "GP|basse-terre",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 280,
+    "CityName": "Pointe-a-Pitre",
+    "Country": 91,
+    "CountryCityKey": "GP|pointe-a-pitre",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 281,
+    "CityName": "Hagatna",
+    "Country": 92,
+    "CountryCityKey": "GU|hagatna",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 282,
+    "CityName": "Dededo",
+    "Country": 92,
+    "CountryCityKey": "GU|dededo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 283,
+    "CityName": "Guatemala City",
+    "Country": 93,
+    "CountryCityKey": "GT|guatemala-city",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 284,
+    "CityName": "Mixco",
+    "Country": 93,
+    "CountryCityKey": "GT|mixco",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 285,
+    "CityName": "Quetzaltenango",
+    "Country": 93,
+    "CountryCityKey": "GT|quetzaltenango",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 286,
+    "CityName": "Saint Peter Port",
+    "Country": 94,
+    "CountryCityKey": "GG|saint-peter-port",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 287,
+    "CityName": "Saint Sampson",
+    "Country": 94,
+    "CountryCityKey": "GG|saint-sampson",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 288,
+    "CityName": "Conakry",
+    "Country": 95,
+    "CountryCityKey": "GN|conakry",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 289,
+    "CityName": "Nzerekore",
+    "Country": 95,
+    "CountryCityKey": "GN|nzerekore",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 290,
+    "CityName": "Kankan",
+    "Country": 95,
+    "CountryCityKey": "GN|kankan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 291,
+    "CityName": "Bissau",
+    "Country": 96,
+    "CountryCityKey": "GW|bissau",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 292,
+    "CityName": "Bafata",
+    "Country": 96,
+    "CountryCityKey": "GW|bafata",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 293,
+    "CityName": "Gabu",
+    "Country": 96,
+    "CountryCityKey": "GW|gabu",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 294,
+    "CityName": "Georgetown",
+    "Country": 97,
+    "CountryCityKey": "GY|georgetown",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 295,
+    "CityName": "Linden",
+    "Country": 97,
+    "CountryCityKey": "GY|linden",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 296,
+    "CityName": "New Amsterdam",
+    "Country": 97,
+    "CountryCityKey": "GY|new-amsterdam",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 297,
+    "CityName": "Port-au-Prince",
+    "Country": 98,
+    "CountryCityKey": "HT|port-au-prince",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 298,
+    "CityName": "Cap-Haitien",
+    "Country": 98,
+    "CountryCityKey": "HT|cap-haitien",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 299,
+    "CityName": "Gonaives",
+    "Country": 98,
+    "CountryCityKey": "HT|gonaives",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 300,
+    "CityName": "Uninhabited",
+    "Country": 99,
+    "CountryCityKey": "HM|uninhabited",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 301,
+    "CityName": "Tegucigalpa",
+    "Country": 100,
+    "CountryCityKey": "HN|tegucigalpa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 302,
+    "CityName": "San Pedro Sula",
+    "Country": 100,
+    "CountryCityKey": "HN|san-pedro-sula",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 303,
+    "CityName": "La Ceiba",
+    "Country": 100,
+    "CountryCityKey": "HN|la-ceiba",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 304,
+    "CityName": "Central",
+    "Country": 101,
+    "CountryCityKey": "HK|central",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 305,
+    "CityName": "Kowloon",
+    "Country": 101,
+    "CountryCityKey": "HK|kowloon",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 306,
+    "CityName": "Tsuen Wan",
+    "Country": 101,
+    "CountryCityKey": "HK|tsuen-wan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 307,
+    "CityName": "Sha Tin",
+    "Country": 101,
+    "CountryCityKey": "HK|sha-tin",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 308,
+    "CityName": "Budapest",
+    "Country": 102,
+    "CountryCityKey": "HU|budapest",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 309,
+    "CityName": "Debrecen",
+    "Country": 102,
+    "CountryCityKey": "HU|debrecen",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 310,
+    "CityName": "Szeged",
+    "Country": 102,
+    "CountryCityKey": "HU|szeged",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 311,
+    "CityName": "Miskolc",
+    "Country": 102,
+    "CountryCityKey": "HU|miskolc",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 312,
+    "CityName": "Reykjavik",
+    "Country": 103,
+    "CountryCityKey": "IS|reykjavik",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 313,
+    "CityName": "Kopavogur",
+    "Country": 103,
+    "CountryCityKey": "IS|kopavogur",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 314,
+    "CityName": "Akureyri",
+    "Country": 103,
+    "CountryCityKey": "IS|akureyri",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 315,
+    "CityName": "New Delhi",
+    "Country": 104,
+    "CountryCityKey": "IN|new-delhi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 316,
+    "CityName": "Mumbai",
+    "Country": 104,
+    "CountryCityKey": "IN|mumbai",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 317,
+    "CityName": "Bengaluru",
+    "Country": 104,
+    "CountryCityKey": "IN|bengaluru",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 318,
+    "CityName": "Chennai",
+    "Country": 104,
+    "CountryCityKey": "IN|chennai",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 319,
+    "CityName": "Kolkata",
+    "Country": 104,
+    "CountryCityKey": "IN|kolkata",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 320,
+    "CityName": "Jakarta",
+    "Country": 105,
+    "CountryCityKey": "ID|jakarta",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 321,
+    "CityName": "Surabaya",
+    "Country": 105,
+    "CountryCityKey": "ID|surabaya",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 322,
+    "CityName": "Bandung",
+    "Country": 105,
+    "CountryCityKey": "ID|bandung",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 323,
+    "CityName": "Medan",
+    "Country": 105,
+    "CountryCityKey": "ID|medan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 324,
+    "CityName": "Tehran",
+    "Country": 106,
+    "CountryCityKey": "IR|tehran",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 325,
+    "CityName": "Mashhad",
+    "Country": 106,
+    "CountryCityKey": "IR|mashhad",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 326,
+    "CityName": "Isfahan",
+    "Country": 106,
+    "CountryCityKey": "IR|isfahan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 327,
+    "CityName": "Shiraz",
+    "Country": 106,
+    "CountryCityKey": "IR|shiraz",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 328,
+    "CityName": "Baghdad",
+    "Country": 107,
+    "CountryCityKey": "IQ|baghdad",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 329,
+    "CityName": "Basra",
+    "Country": 107,
+    "CountryCityKey": "IQ|basra",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 330,
+    "CityName": "Mosul",
+    "Country": 107,
+    "CountryCityKey": "IQ|mosul",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 331,
+    "CityName": "Erbil",
+    "Country": 107,
+    "CountryCityKey": "IQ|erbil",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 332,
+    "CityName": "Dublin",
+    "Country": 108,
+    "CountryCityKey": "IE|dublin",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 333,
+    "CityName": "Cork",
+    "Country": 108,
+    "CountryCityKey": "IE|cork",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 334,
+    "CityName": "Limerick",
+    "Country": 108,
+    "CountryCityKey": "IE|limerick",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 335,
+    "CityName": "Galway",
+    "Country": 108,
+    "CountryCityKey": "IE|galway",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 336,
+    "CityName": "Douglas",
+    "Country": 109,
+    "CountryCityKey": "IM|douglas",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 337,
+    "CityName": "Ramsey",
+    "Country": 109,
+    "CountryCityKey": "IM|ramsey",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 338,
+    "CityName": "Rome",
+    "Country": 110,
+    "CountryCityKey": "IT|rome",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 339,
+    "CityName": "Milan",
+    "Country": 110,
+    "CountryCityKey": "IT|milan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 340,
+    "CityName": "Naples",
+    "Country": 110,
+    "CountryCityKey": "IT|naples",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 341,
+    "CityName": "Turin",
+    "Country": 110,
+    "CountryCityKey": "IT|turin",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 342,
+    "CityName": "Palermo",
+    "Country": 110,
+    "CountryCityKey": "IT|palermo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 343,
+    "CityName": "Kingston",
+    "Country": 111,
+    "CountryCityKey": "JM|kingston",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 344,
+    "CityName": "Montego Bay",
+    "Country": 111,
+    "CountryCityKey": "JM|montego-bay",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 345,
+    "CityName": "Spanish Town",
+    "Country": 111,
+    "CountryCityKey": "JM|spanish-town",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 346,
+    "CityName": "Tokyo",
+    "Country": 112,
+    "CountryCityKey": "JP|tokyo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 347,
+    "CityName": "Yokohama",
+    "Country": 112,
+    "CountryCityKey": "JP|yokohama",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 348,
+    "CityName": "Osaka",
+    "Country": 112,
+    "CountryCityKey": "JP|osaka",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 349,
+    "CityName": "Nagoya",
+    "Country": 112,
+    "CountryCityKey": "JP|nagoya",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 350,
+    "CityName": "Sapporo",
+    "Country": 112,
+    "CountryCityKey": "JP|sapporo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 351,
+    "CityName": "Saint Helier",
+    "Country": 113,
+    "CountryCityKey": "JE|saint-helier",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 352,
+    "CityName": "Saint Saviour",
+    "Country": 113,
+    "CountryCityKey": "JE|saint-saviour",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 353,
+    "CityName": "Amman",
+    "Country": 114,
+    "CountryCityKey": "JO|amman",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 354,
+    "CityName": "Zarqa",
+    "Country": 114,
+    "CountryCityKey": "JO|zarqa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 355,
+    "CityName": "Irbid",
+    "Country": 114,
+    "CountryCityKey": "JO|irbid",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 356,
+    "CityName": "Aqaba",
+    "Country": 114,
+    "CountryCityKey": "JO|aqaba",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 357,
+    "CityName": "Astana",
+    "Country": 115,
+    "CountryCityKey": "KZ|astana",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 358,
+    "CityName": "Almaty",
+    "Country": 115,
+    "CountryCityKey": "KZ|almaty",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 359,
+    "CityName": "Shymkent",
+    "Country": 115,
+    "CountryCityKey": "KZ|shymkent",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 360,
+    "CityName": "Nairobi",
+    "Country": 116,
+    "CountryCityKey": "KE|nairobi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 361,
+    "CityName": "Mombasa",
+    "Country": 116,
+    "CountryCityKey": "KE|mombasa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 362,
+    "CityName": "Kisumu",
+    "Country": 116,
+    "CountryCityKey": "KE|kisumu",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 363,
+    "CityName": "Nakuru",
+    "Country": 116,
+    "CountryCityKey": "KE|nakuru",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 364,
+    "CityName": "Tarawa",
+    "Country": 117,
+    "CountryCityKey": "KI|tarawa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 365,
+    "CityName": "Betio",
+    "Country": 117,
+    "CountryCityKey": "KI|betio",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 366,
+    "CityName": "Bikenibeu",
+    "Country": 117,
+    "CountryCityKey": "KI|bikenibeu",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 367,
+    "CityName": "Pristina",
+    "Country": 118,
+    "CountryCityKey": "XK|pristina",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 368,
+    "CityName": "Prizren",
+    "Country": 118,
+    "CountryCityKey": "XK|prizren",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 369,
+    "CityName": "Peja",
+    "Country": 118,
+    "CountryCityKey": "XK|peja",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 370,
+    "CityName": "Kuwait City",
+    "Country": 119,
+    "CountryCityKey": "KW|kuwait-city",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 371,
+    "CityName": "Hawalli",
+    "Country": 119,
+    "CountryCityKey": "KW|hawalli",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 372,
+    "CityName": "Salmiya",
+    "Country": 119,
+    "CountryCityKey": "KW|salmiya",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 373,
+    "CityName": "Bishkek",
+    "Country": 120,
+    "CountryCityKey": "KG|bishkek",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 374,
+    "CityName": "Osh",
+    "Country": 120,
+    "CountryCityKey": "KG|osh",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 375,
+    "CityName": "Jalal-Abad",
+    "Country": 120,
+    "CountryCityKey": "KG|jalal-abad",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 376,
+    "CityName": "Vientiane",
+    "Country": 121,
+    "CountryCityKey": "LA|vientiane",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 377,
+    "CityName": "Pakse",
+    "Country": 121,
+    "CountryCityKey": "LA|pakse",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 378,
+    "CityName": "Luang Prabang",
+    "Country": 121,
+    "CountryCityKey": "LA|luang-prabang",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 379,
+    "CityName": "Riga",
+    "Country": 122,
+    "CountryCityKey": "LV|riga",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 380,
+    "CityName": "Daugavpils",
+    "Country": 122,
+    "CountryCityKey": "LV|daugavpils",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 381,
+    "CityName": "Liepaja",
+    "Country": 122,
+    "CountryCityKey": "LV|liepaja",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 382,
+    "CityName": "Beirut",
+    "Country": 123,
+    "CountryCityKey": "LB|beirut",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 383,
+    "CityName": "Tripoli",
+    "Country": 123,
+    "CountryCityKey": "LB|tripoli",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 384,
+    "CityName": "Sidon",
+    "Country": 123,
+    "CountryCityKey": "LB|sidon",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 385,
+    "CityName": "Maseru",
+    "Country": 124,
+    "CountryCityKey": "LS|maseru",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 386,
+    "CityName": "Teyateyaneng",
+    "Country": 124,
+    "CountryCityKey": "LS|teyateyaneng",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 387,
+    "CityName": "Mafeteng",
+    "Country": 124,
+    "CountryCityKey": "LS|mafeteng",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 388,
+    "CityName": "Monrovia",
+    "Country": 125,
+    "CountryCityKey": "LR|monrovia",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 389,
+    "CityName": "Gbarnga",
+    "Country": 125,
+    "CountryCityKey": "LR|gbarnga",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 390,
+    "CityName": "Buchanan",
+    "Country": 125,
+    "CountryCityKey": "LR|buchanan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 391,
+    "CityName": "Tripoli",
+    "Country": 126,
+    "CountryCityKey": "LY|tripoli",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 392,
+    "CityName": "Benghazi",
+    "Country": 126,
+    "CountryCityKey": "LY|benghazi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 393,
+    "CityName": "Misrata",
+    "Country": 126,
+    "CountryCityKey": "LY|misrata",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 394,
+    "CityName": "Vaduz",
+    "Country": 127,
+    "CountryCityKey": "LI|vaduz",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 395,
+    "CityName": "Schaan",
+    "Country": 127,
+    "CountryCityKey": "LI|schaan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 396,
+    "CityName": "Balzers",
+    "Country": 127,
+    "CountryCityKey": "LI|balzers",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 397,
+    "CityName": "Vilnius",
+    "Country": 128,
+    "CountryCityKey": "LT|vilnius",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 398,
+    "CityName": "Kaunas",
+    "Country": 128,
+    "CountryCityKey": "LT|kaunas",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 399,
+    "CityName": "Klaipeda",
+    "Country": 128,
+    "CountryCityKey": "LT|klaipeda",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 400,
+    "CityName": "Luxembourg City",
+    "Country": 129,
+    "CountryCityKey": "LU|luxembourg-city",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 401,
+    "CityName": "Esch-sur-Alzette",
+    "Country": 129,
+    "CountryCityKey": "LU|esch-sur-alzette",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 402,
+    "CityName": "Differdange",
+    "Country": 129,
+    "CountryCityKey": "LU|differdange",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 403,
+    "CityName": "Macau",
+    "Country": 130,
+    "CountryCityKey": "MO|macau",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 404,
+    "CityName": "Taipa",
+    "Country": 130,
+    "CountryCityKey": "MO|taipa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 405,
+    "CityName": "Coloane",
+    "Country": 130,
+    "CountryCityKey": "MO|coloane",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 406,
+    "CityName": "Antananarivo",
+    "Country": 131,
+    "CountryCityKey": "MG|antananarivo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 407,
+    "CityName": "Toamasina",
+    "Country": 131,
+    "CountryCityKey": "MG|toamasina",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 408,
+    "CityName": "Antsirabe",
+    "Country": 131,
+    "CountryCityKey": "MG|antsirabe",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 409,
+    "CityName": "Lilongwe",
+    "Country": 132,
+    "CountryCityKey": "MW|lilongwe",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 410,
+    "CityName": "Blantyre",
+    "Country": 132,
+    "CountryCityKey": "MW|blantyre",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 411,
+    "CityName": "Mzuzu",
+    "Country": 132,
+    "CountryCityKey": "MW|mzuzu",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 412,
+    "CityName": "Kuala Lumpur",
+    "Country": 133,
+    "CountryCityKey": "MY|kuala-lumpur",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 413,
+    "CityName": "George Town",
+    "Country": 133,
+    "CountryCityKey": "MY|george-town",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 414,
+    "CityName": "Johor Bahru",
+    "Country": 133,
+    "CountryCityKey": "MY|johor-bahru",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 415,
+    "CityName": "Ipoh",
+    "Country": 133,
+    "CountryCityKey": "MY|ipoh",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 416,
+    "CityName": "Male",
+    "Country": 134,
+    "CountryCityKey": "MV|male",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 417,
+    "CityName": "Addu City",
+    "Country": 134,
+    "CountryCityKey": "MV|addu-city",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 418,
+    "CityName": "Fuvahmulah",
+    "Country": 134,
+    "CountryCityKey": "MV|fuvahmulah",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 419,
+    "CityName": "Bamako",
+    "Country": 135,
+    "CountryCityKey": "ML|bamako",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 420,
+    "CityName": "Sikasso",
+    "Country": 135,
+    "CountryCityKey": "ML|sikasso",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 421,
+    "CityName": "Mopti",
+    "Country": 135,
+    "CountryCityKey": "ML|mopti",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 422,
+    "CityName": "Valletta",
+    "Country": 136,
+    "CountryCityKey": "MT|valletta",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 423,
+    "CityName": "Birkirkara",
+    "Country": 136,
+    "CountryCityKey": "MT|birkirkara",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 424,
+    "CityName": "Mosta",
+    "Country": 136,
+    "CountryCityKey": "MT|mosta",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 425,
+    "CityName": "Majuro",
+    "Country": 137,
+    "CountryCityKey": "MH|majuro",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 426,
+    "CityName": "Ebeye",
+    "Country": 137,
+    "CountryCityKey": "MH|ebeye",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 427,
+    "CityName": "Fort-de-France",
+    "Country": 138,
+    "CountryCityKey": "MQ|fort-de-france",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 428,
+    "CityName": "Le Lamentin",
+    "Country": 138,
+    "CountryCityKey": "MQ|le-lamentin",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 429,
+    "CityName": "Nouakchott",
+    "Country": 139,
+    "CountryCityKey": "MR|nouakchott",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 430,
+    "CityName": "Nouadhibou",
+    "Country": 139,
+    "CountryCityKey": "MR|nouadhibou",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 431,
+    "CityName": "Kiffa",
+    "Country": 139,
+    "CountryCityKey": "MR|kiffa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 432,
+    "CityName": "Port Louis",
+    "Country": 140,
+    "CountryCityKey": "MU|port-louis",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 433,
+    "CityName": "Beau Bassin-Rose Hill",
+    "Country": 140,
+    "CountryCityKey": "MU|beau-bassin-rose-hill",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 434,
+    "CityName": "Vacoas-Phoenix",
+    "Country": 140,
+    "CountryCityKey": "MU|vacoas-phoenix",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 435,
+    "CityName": "Mamoudzou",
+    "Country": 141,
+    "CountryCityKey": "YT|mamoudzou",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 436,
+    "CityName": "Koungou",
+    "Country": 141,
+    "CountryCityKey": "YT|koungou",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 437,
+    "CityName": "Mexico City",
+    "Country": 142,
+    "CountryCityKey": "MX|mexico-city",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 438,
+    "CityName": "Guadalajara",
+    "Country": 142,
+    "CountryCityKey": "MX|guadalajara",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 439,
+    "CityName": "Monterrey",
+    "Country": 142,
+    "CountryCityKey": "MX|monterrey",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 440,
+    "CityName": "Puebla",
+    "Country": 142,
+    "CountryCityKey": "MX|puebla",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 441,
+    "CityName": "Palikir",
+    "Country": 143,
+    "CountryCityKey": "FM|palikir",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 442,
+    "CityName": "Weno",
+    "Country": 143,
+    "CountryCityKey": "FM|weno",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 443,
+    "CityName": "Kolonia",
+    "Country": 143,
+    "CountryCityKey": "FM|kolonia",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 444,
+    "CityName": "Chisinau",
+    "Country": 144,
+    "CountryCityKey": "MD|chisinau",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 445,
+    "CityName": "Tiraspol",
+    "Country": 144,
+    "CountryCityKey": "MD|tiraspol",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 446,
+    "CityName": "Balti",
+    "Country": 144,
+    "CountryCityKey": "MD|balti",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 447,
+    "CityName": "Monaco-Ville",
+    "Country": 145,
+    "CountryCityKey": "MC|monaco-ville",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 448,
+    "CityName": "Monte Carlo",
+    "Country": 145,
+    "CountryCityKey": "MC|monte-carlo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 449,
+    "CityName": "La Condamine",
+    "Country": 145,
+    "CountryCityKey": "MC|la-condamine",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 450,
+    "CityName": "Ulaanbaatar",
+    "Country": 146,
+    "CountryCityKey": "MN|ulaanbaatar",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 451,
+    "CityName": "Erdenet",
+    "Country": 146,
+    "CountryCityKey": "MN|erdenet",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 452,
+    "CityName": "Darkhan",
+    "Country": 146,
+    "CountryCityKey": "MN|darkhan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 453,
+    "CityName": "Podgorica",
+    "Country": 147,
+    "CountryCityKey": "ME|podgorica",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 454,
+    "CityName": "Niksic",
+    "Country": 147,
+    "CountryCityKey": "ME|niksic",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 455,
+    "CityName": "Herceg Novi",
+    "Country": 147,
+    "CountryCityKey": "ME|herceg-novi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 456,
+    "CityName": "Brades",
+    "Country": 148,
+    "CountryCityKey": "MS|brades",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 457,
+    "CityName": "Little Bay",
+    "Country": 148,
+    "CountryCityKey": "MS|little-bay",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 458,
+    "CityName": "Rabat",
+    "Country": 149,
+    "CountryCityKey": "MA|rabat",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 459,
+    "CityName": "Casablanca",
+    "Country": 149,
+    "CountryCityKey": "MA|casablanca",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 460,
+    "CityName": "Marrakesh",
+    "Country": 149,
+    "CountryCityKey": "MA|marrakesh",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 461,
+    "CityName": "Fes",
+    "Country": 149,
+    "CountryCityKey": "MA|fes",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 462,
+    "CityName": "Maputo",
+    "Country": 150,
+    "CountryCityKey": "MZ|maputo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 463,
+    "CityName": "Matola",
+    "Country": 150,
+    "CountryCityKey": "MZ|matola",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 464,
+    "CityName": "Beira",
+    "Country": 150,
+    "CountryCityKey": "MZ|beira",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 465,
+    "CityName": "Naypyidaw",
+    "Country": 151,
+    "CountryCityKey": "MM|naypyidaw",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 466,
+    "CityName": "Yangon",
+    "Country": 151,
+    "CountryCityKey": "MM|yangon",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 467,
+    "CityName": "Mandalay",
+    "Country": 151,
+    "CountryCityKey": "MM|mandalay",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 468,
+    "CityName": "Windhoek",
+    "Country": 152,
+    "CountryCityKey": "NA|windhoek",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 469,
+    "CityName": "Walvis Bay",
+    "Country": 152,
+    "CountryCityKey": "NA|walvis-bay",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 470,
+    "CityName": "Swakopmund",
+    "Country": 152,
+    "CountryCityKey": "NA|swakopmund",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 471,
+    "CityName": "Yaren",
+    "Country": 153,
+    "CountryCityKey": "NR|yaren",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 472,
+    "CityName": "Denigomodu",
+    "Country": 153,
+    "CountryCityKey": "NR|denigomodu",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 473,
+    "CityName": "Kathmandu",
+    "Country": 154,
+    "CountryCityKey": "NP|kathmandu",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 474,
+    "CityName": "Pokhara",
+    "Country": 154,
+    "CountryCityKey": "NP|pokhara",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 475,
+    "CityName": "Lalitpur",
+    "Country": 154,
+    "CountryCityKey": "NP|lalitpur",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 476,
+    "CityName": "Amsterdam",
+    "Country": 155,
+    "CountryCityKey": "NL|amsterdam",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 477,
+    "CityName": "Rotterdam",
+    "Country": 155,
+    "CountryCityKey": "NL|rotterdam",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 478,
+    "CityName": "The Hague",
+    "Country": 155,
+    "CountryCityKey": "NL|the-hague",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 479,
+    "CityName": "Utrecht",
+    "Country": 155,
+    "CountryCityKey": "NL|utrecht",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 480,
+    "CityName": "Noumea",
+    "Country": 156,
+    "CountryCityKey": "NC|noumea",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 481,
+    "CityName": "Mont-Dore",
+    "Country": 156,
+    "CountryCityKey": "NC|mont-dore",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 482,
+    "CityName": "Wellington",
+    "Country": 157,
+    "CountryCityKey": "NZ|wellington",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 483,
+    "CityName": "Auckland",
+    "Country": 157,
+    "CountryCityKey": "NZ|auckland",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 484,
+    "CityName": "Christchurch",
+    "Country": 157,
+    "CountryCityKey": "NZ|christchurch",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 485,
+    "CityName": "Hamilton",
+    "Country": 157,
+    "CountryCityKey": "NZ|hamilton",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 486,
+    "CityName": "Managua",
+    "Country": 158,
+    "CountryCityKey": "NI|managua",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 487,
+    "CityName": "Leon",
+    "Country": 158,
+    "CountryCityKey": "NI|leon",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 488,
+    "CityName": "Granada",
+    "Country": 158,
+    "CountryCityKey": "NI|granada",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 489,
+    "CityName": "Niamey",
+    "Country": 159,
+    "CountryCityKey": "NE|niamey",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 490,
+    "CityName": "Zinder",
+    "Country": 159,
+    "CountryCityKey": "NE|zinder",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 491,
+    "CityName": "Maradi",
+    "Country": 159,
+    "CountryCityKey": "NE|maradi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 492,
+    "CityName": "Abuja",
+    "Country": 160,
+    "CountryCityKey": "NG|abuja",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 493,
+    "CityName": "Lagos",
+    "Country": 160,
+    "CountryCityKey": "NG|lagos",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 494,
+    "CityName": "Kano",
+    "Country": 160,
+    "CountryCityKey": "NG|kano",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 495,
+    "CityName": "Ibadan",
+    "Country": 160,
+    "CountryCityKey": "NG|ibadan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 496,
+    "CityName": "Port Harcourt",
+    "Country": 160,
+    "CountryCityKey": "NG|port-harcourt",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 497,
+    "CityName": "Alofi",
+    "Country": 161,
+    "CountryCityKey": "NU|alofi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 498,
+    "CityName": "Kingston",
+    "Country": 162,
+    "CountryCityKey": "NF|kingston",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 499,
+    "CityName": "Burnt Pine",
+    "Country": 162,
+    "CountryCityKey": "NF|burnt-pine",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 500,
+    "CityName": "Skopje",
+    "Country": 163,
+    "CountryCityKey": "MK|skopje",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 501,
+    "CityName": "Bitola",
+    "Country": 163,
+    "CountryCityKey": "MK|bitola",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 502,
+    "CityName": "Kumanovo",
+    "Country": 163,
+    "CountryCityKey": "MK|kumanovo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 503,
+    "CityName": "Saipan",
+    "Country": 164,
+    "CountryCityKey": "MP|saipan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 504,
+    "CityName": "Tinian",
+    "Country": 164,
+    "CountryCityKey": "MP|tinian",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 505,
+    "CityName": "Oslo",
+    "Country": 165,
+    "CountryCityKey": "NO|oslo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 506,
+    "CityName": "Bergen",
+    "Country": 165,
+    "CountryCityKey": "NO|bergen",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 507,
+    "CityName": "Trondheim",
+    "Country": 165,
+    "CountryCityKey": "NO|trondheim",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 508,
+    "CityName": "Stavanger",
+    "Country": 165,
+    "CountryCityKey": "NO|stavanger",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 509,
+    "CityName": "Muscat",
+    "Country": 166,
+    "CountryCityKey": "OM|muscat",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 510,
+    "CityName": "Salalah",
+    "Country": 166,
+    "CountryCityKey": "OM|salalah",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 511,
+    "CityName": "Sohar",
+    "Country": 166,
+    "CountryCityKey": "OM|sohar",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 512,
+    "CityName": "Islamabad",
+    "Country": 167,
+    "CountryCityKey": "PK|islamabad",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 513,
+    "CityName": "Karachi",
+    "Country": 167,
+    "CountryCityKey": "PK|karachi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 514,
+    "CityName": "Lahore",
+    "Country": 167,
+    "CountryCityKey": "PK|lahore",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 515,
+    "CityName": "Faisalabad",
+    "Country": 167,
+    "CountryCityKey": "PK|faisalabad",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 516,
+    "CityName": "Ngerulmud",
+    "Country": 168,
+    "CountryCityKey": "PW|ngerulmud",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 517,
+    "CityName": "Koror",
+    "Country": 168,
+    "CountryCityKey": "PW|koror",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 518,
+    "CityName": "Ramallah",
+    "Country": 169,
+    "CountryCityKey": "PS|ramallah",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 519,
+    "CityName": "Gaza City",
+    "Country": 169,
+    "CountryCityKey": "PS|gaza-city",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 520,
+    "CityName": "Hebron",
+    "Country": 169,
+    "CountryCityKey": "PS|hebron",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 521,
+    "CityName": "Nablus",
+    "Country": 169,
+    "CountryCityKey": "PS|nablus",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 522,
+    "CityName": "Panama City",
+    "Country": 170,
+    "CountryCityKey": "PA|panama-city",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 523,
+    "CityName": "San Miguelito",
+    "Country": 170,
+    "CountryCityKey": "PA|san-miguelito",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 524,
+    "CityName": "David",
+    "Country": 170,
+    "CountryCityKey": "PA|david",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 525,
+    "CityName": "Port Moresby",
+    "Country": 171,
+    "CountryCityKey": "PG|port-moresby",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 526,
+    "CityName": "Lae",
+    "Country": 171,
+    "CountryCityKey": "PG|lae",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 527,
+    "CityName": "Mount Hagen",
+    "Country": 171,
+    "CountryCityKey": "PG|mount-hagen",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 528,
+    "CityName": "Asuncion",
+    "Country": 172,
+    "CountryCityKey": "PY|asuncion",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 529,
+    "CityName": "Ciudad del Este",
+    "Country": 172,
+    "CountryCityKey": "PY|ciudad-del-este",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 530,
+    "CityName": "Encarnacion",
+    "Country": 172,
+    "CountryCityKey": "PY|encarnacion",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 531,
+    "CityName": "Lima",
+    "Country": 173,
+    "CountryCityKey": "PE|lima",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 532,
+    "CityName": "Arequipa",
+    "Country": 173,
+    "CountryCityKey": "PE|arequipa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 533,
+    "CityName": "Trujillo",
+    "Country": 173,
+    "CountryCityKey": "PE|trujillo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 534,
+    "CityName": "Cusco",
+    "Country": 173,
+    "CountryCityKey": "PE|cusco",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 535,
+    "CityName": "Manila",
+    "Country": 174,
+    "CountryCityKey": "PH|manila",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 536,
+    "CityName": "Quezon City",
+    "Country": 174,
+    "CountryCityKey": "PH|quezon-city",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 537,
+    "CityName": "Davao City",
+    "Country": 174,
+    "CountryCityKey": "PH|davao-city",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 538,
+    "CityName": "Cebu City",
+    "Country": 174,
+    "CountryCityKey": "PH|cebu-city",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 539,
+    "CityName": "Adamstown",
+    "Country": 175,
+    "CountryCityKey": "PN|adamstown",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 540,
+    "CityName": "Warsaw",
+    "Country": 176,
+    "CountryCityKey": "PL|warsaw",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 541,
+    "CityName": "Krakow",
+    "Country": 176,
+    "CountryCityKey": "PL|krakow",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 542,
+    "CityName": "Lodz",
+    "Country": 176,
+    "CountryCityKey": "PL|lodz",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 543,
+    "CityName": "Wroclaw",
+    "Country": 176,
+    "CountryCityKey": "PL|wroclaw",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 544,
+    "CityName": "Lisbon",
+    "Country": 177,
+    "CountryCityKey": "PT|lisbon",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 545,
+    "CityName": "Porto",
+    "Country": 177,
+    "CountryCityKey": "PT|porto",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 546,
+    "CityName": "Braga",
+    "Country": 177,
+    "CountryCityKey": "PT|braga",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 547,
+    "CityName": "Coimbra",
+    "Country": 177,
+    "CountryCityKey": "PT|coimbra",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 548,
+    "CityName": "San Juan",
+    "Country": 178,
+    "CountryCityKey": "PR|san-juan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 549,
+    "CityName": "Bayamon",
+    "Country": 178,
+    "CountryCityKey": "PR|bayamon",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 550,
+    "CityName": "Carolina",
+    "Country": 178,
+    "CountryCityKey": "PR|carolina",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 551,
+    "CityName": "Doha",
+    "Country": 179,
+    "CountryCityKey": "QA|doha",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 552,
+    "CityName": "Al Rayyan",
+    "Country": 179,
+    "CountryCityKey": "QA|al-rayyan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 553,
+    "CityName": "Al Wakrah",
+    "Country": 179,
+    "CountryCityKey": "QA|al-wakrah",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 554,
+    "CityName": "Saint-Denis",
+    "Country": 180,
+    "CountryCityKey": "RE|saint-denis",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 555,
+    "CityName": "Saint-Paul",
+    "Country": 180,
+    "CountryCityKey": "RE|saint-paul",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 556,
+    "CityName": "Bucharest",
+    "Country": 181,
+    "CountryCityKey": "RO|bucharest",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 557,
+    "CityName": "Cluj-Napoca",
+    "Country": 181,
+    "CountryCityKey": "RO|cluj-napoca",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 558,
+    "CityName": "Timisoara",
+    "Country": 181,
+    "CountryCityKey": "RO|timisoara",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 559,
+    "CityName": "Iasi",
+    "Country": 181,
+    "CountryCityKey": "RO|iasi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 560,
+    "CityName": "Moscow",
+    "Country": 182,
+    "CountryCityKey": "RU|moscow",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 561,
+    "CityName": "Saint Petersburg",
+    "Country": 182,
+    "CountryCityKey": "RU|saint-petersburg",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 562,
+    "CityName": "Novosibirsk",
+    "Country": 182,
+    "CountryCityKey": "RU|novosibirsk",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 563,
+    "CityName": "Yekaterinburg",
+    "Country": 182,
+    "CountryCityKey": "RU|yekaterinburg",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 564,
+    "CityName": "Kigali",
+    "Country": 183,
+    "CountryCityKey": "RW|kigali",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 565,
+    "CityName": "Butare",
+    "Country": 183,
+    "CountryCityKey": "RW|butare",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 566,
+    "CityName": "Gitarama",
+    "Country": 183,
+    "CountryCityKey": "RW|gitarama",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 567,
+    "CityName": "Gustavia",
+    "Country": 184,
+    "CountryCityKey": "BL|gustavia",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 568,
+    "CityName": "Jamestown",
+    "Country": 185,
+    "CountryCityKey": "SH|jamestown",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 569,
+    "CityName": "Georgetown",
+    "Country": 185,
+    "CountryCityKey": "SH|georgetown",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 570,
+    "CityName": "Basseterre",
+    "Country": 186,
+    "CountryCityKey": "KN|basseterre",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 571,
+    "CityName": "Charlestown",
+    "Country": 186,
+    "CountryCityKey": "KN|charlestown",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 572,
+    "CityName": "Castries",
+    "Country": 187,
+    "CountryCityKey": "LC|castries",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 573,
+    "CityName": "Gros Islet",
+    "Country": 187,
+    "CountryCityKey": "LC|gros-islet",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 574,
+    "CityName": "Vieux Fort",
+    "Country": 187,
+    "CountryCityKey": "LC|vieux-fort",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 575,
+    "CityName": "Marigot",
+    "Country": 188,
+    "CountryCityKey": "MF|marigot",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 576,
+    "CityName": "Saint-Pierre",
+    "Country": 189,
+    "CountryCityKey": "PM|saint-pierre",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 577,
+    "CityName": "Miquelon",
+    "Country": 189,
+    "CountryCityKey": "PM|miquelon",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 578,
+    "CityName": "Kingstown",
+    "Country": 190,
+    "CountryCityKey": "VC|kingstown",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 579,
+    "CityName": "Georgetown",
+    "Country": 190,
+    "CountryCityKey": "VC|georgetown",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 580,
+    "CityName": "Apia",
+    "Country": 191,
+    "CountryCityKey": "WS|apia",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 581,
+    "CityName": "Vaitele",
+    "Country": 191,
+    "CountryCityKey": "WS|vaitele",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 582,
+    "CityName": "City of San Marino",
+    "Country": 192,
+    "CountryCityKey": "SM|city-of-san-marino",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 583,
+    "CityName": "Serravalle",
+    "Country": 192,
+    "CountryCityKey": "SM|serravalle",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 584,
+    "CityName": "Borgo Maggiore",
+    "Country": 192,
+    "CountryCityKey": "SM|borgo-maggiore",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 585,
+    "CityName": "Sao Tome",
+    "Country": 193,
+    "CountryCityKey": "ST|sao-tome",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 586,
+    "CityName": "Santo Antonio",
+    "Country": 193,
+    "CountryCityKey": "ST|santo-antonio",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 587,
+    "CityName": "Dakar",
+    "Country": 194,
+    "CountryCityKey": "SN|dakar",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 588,
+    "CityName": "Touba",
+    "Country": 194,
+    "CountryCityKey": "SN|touba",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 589,
+    "CityName": "Thies",
+    "Country": 194,
+    "CountryCityKey": "SN|thies",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 590,
+    "CityName": "Belgrade",
+    "Country": 195,
+    "CountryCityKey": "RS|belgrade",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 591,
+    "CityName": "Novi Sad",
+    "Country": 195,
+    "CountryCityKey": "RS|novi-sad",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 592,
+    "CityName": "Nis",
+    "Country": 195,
+    "CountryCityKey": "RS|nis",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 593,
+    "CityName": "Victoria",
+    "Country": 196,
+    "CountryCityKey": "SC|victoria",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 594,
+    "CityName": "Anse Boileau",
+    "Country": 196,
+    "CountryCityKey": "SC|anse-boileau",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 595,
+    "CityName": "Freetown",
+    "Country": 197,
+    "CountryCityKey": "SL|freetown",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 596,
+    "CityName": "Bo",
+    "Country": 197,
+    "CountryCityKey": "SL|bo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 597,
+    "CityName": "Kenema",
+    "Country": 197,
+    "CountryCityKey": "SL|kenema",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 598,
+    "CityName": "Singapore",
+    "Country": 198,
+    "CountryCityKey": "SG|singapore",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 599,
+    "CityName": "Philipsburg",
+    "Country": 199,
+    "CountryCityKey": "SX|philipsburg",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 600,
+    "CityName": "Simpson Bay",
+    "Country": 199,
+    "CountryCityKey": "SX|simpson-bay",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 601,
+    "CityName": "Bratislava",
+    "Country": 200,
+    "CountryCityKey": "SK|bratislava",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 602,
+    "CityName": "Kosice",
+    "Country": 200,
+    "CountryCityKey": "SK|kosice",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 603,
+    "CityName": "Presov",
+    "Country": 200,
+    "CountryCityKey": "SK|presov",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 604,
+    "CityName": "Ljubljana",
+    "Country": 201,
+    "CountryCityKey": "SI|ljubljana",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 605,
+    "CityName": "Maribor",
+    "Country": 201,
+    "CountryCityKey": "SI|maribor",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 606,
+    "CityName": "Celje",
+    "Country": 201,
+    "CountryCityKey": "SI|celje",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 607,
+    "CityName": "Honiara",
+    "Country": 202,
+    "CountryCityKey": "SB|honiara",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 608,
+    "CityName": "Auki",
+    "Country": 202,
+    "CountryCityKey": "SB|auki",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 609,
+    "CityName": "Mogadishu",
+    "Country": 203,
+    "CountryCityKey": "SO|mogadishu",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 610,
+    "CityName": "Hargeisa",
+    "Country": 203,
+    "CountryCityKey": "SO|hargeisa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 611,
+    "CityName": "Kismayo",
+    "Country": 203,
+    "CountryCityKey": "SO|kismayo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 612,
+    "CityName": "Pretoria",
+    "Country": 204,
+    "CountryCityKey": "ZA|pretoria",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 613,
+    "CityName": "Cape Town",
+    "Country": 204,
+    "CountryCityKey": "ZA|cape-town",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 614,
+    "CityName": "Johannesburg",
+    "Country": 204,
+    "CountryCityKey": "ZA|johannesburg",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 615,
+    "CityName": "Durban",
+    "Country": 204,
+    "CountryCityKey": "ZA|durban",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 616,
+    "CityName": "King Edward Point",
+    "Country": 205,
+    "CountryCityKey": "GS|king-edward-point",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 617,
+    "CityName": "Juba",
+    "Country": 206,
+    "CountryCityKey": "SS|juba",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 618,
+    "CityName": "Wau",
+    "Country": 206,
+    "CountryCityKey": "SS|wau",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 619,
+    "CityName": "Malakal",
+    "Country": 206,
+    "CountryCityKey": "SS|malakal",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 620,
+    "CityName": "Madrid",
+    "Country": 207,
+    "CountryCityKey": "ES|madrid",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 621,
+    "CityName": "Barcelona",
+    "Country": 207,
+    "CountryCityKey": "ES|barcelona",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 622,
+    "CityName": "Valencia",
+    "Country": 207,
+    "CountryCityKey": "ES|valencia",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 623,
+    "CityName": "Seville",
+    "Country": 207,
+    "CountryCityKey": "ES|seville",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 624,
+    "CityName": "Colombo",
+    "Country": 208,
+    "CountryCityKey": "LK|colombo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 625,
+    "CityName": "Kandy",
+    "Country": 208,
+    "CountryCityKey": "LK|kandy",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 626,
+    "CityName": "Galle",
+    "Country": 208,
+    "CountryCityKey": "LK|galle",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 627,
+    "CityName": "Jaffna",
+    "Country": 208,
+    "CountryCityKey": "LK|jaffna",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 628,
+    "CityName": "Khartoum",
+    "Country": 209,
+    "CountryCityKey": "SD|khartoum",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 629,
+    "CityName": "Omdurman",
+    "Country": 209,
+    "CountryCityKey": "SD|omdurman",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 630,
+    "CityName": "Port Sudan",
+    "Country": 209,
+    "CountryCityKey": "SD|port-sudan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 631,
+    "CityName": "Paramaribo",
+    "Country": 210,
+    "CountryCityKey": "SR|paramaribo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 632,
+    "CityName": "Lelydorp",
+    "Country": 210,
+    "CountryCityKey": "SR|lelydorp",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 633,
+    "CityName": "Nieuw Nickerie",
+    "Country": 210,
+    "CountryCityKey": "SR|nieuw-nickerie",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 634,
+    "CityName": "Longyearbyen",
+    "Country": 211,
+    "CountryCityKey": "SJ|longyearbyen",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 635,
+    "CityName": "Stockholm",
+    "Country": 212,
+    "CountryCityKey": "SE|stockholm",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 636,
+    "CityName": "Gothenburg",
+    "Country": 212,
+    "CountryCityKey": "SE|gothenburg",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 637,
+    "CityName": "Malmo",
+    "Country": 212,
+    "CountryCityKey": "SE|malmo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 638,
+    "CityName": "Uppsala",
+    "Country": 212,
+    "CountryCityKey": "SE|uppsala",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 639,
+    "CityName": "Bern",
+    "Country": 213,
+    "CountryCityKey": "CH|bern",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 640,
+    "CityName": "Zurich",
+    "Country": 213,
+    "CountryCityKey": "CH|zurich",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 641,
+    "CityName": "Geneva",
+    "Country": 213,
+    "CountryCityKey": "CH|geneva",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 642,
+    "CityName": "Basel",
+    "Country": 213,
+    "CountryCityKey": "CH|basel",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 643,
+    "CityName": "Damascus",
+    "Country": 214,
+    "CountryCityKey": "SY|damascus",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 644,
+    "CityName": "Aleppo",
+    "Country": 214,
+    "CountryCityKey": "SY|aleppo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 645,
+    "CityName": "Homs",
+    "Country": 214,
+    "CountryCityKey": "SY|homs",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 646,
+    "CityName": "Taipei",
+    "Country": 215,
+    "CountryCityKey": "TW|taipei",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 647,
+    "CityName": "Kaohsiung",
+    "Country": 215,
+    "CountryCityKey": "TW|kaohsiung",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 648,
+    "CityName": "Taichung",
+    "Country": 215,
+    "CountryCityKey": "TW|taichung",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 649,
+    "CityName": "Tainan",
+    "Country": 215,
+    "CountryCityKey": "TW|tainan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 650,
+    "CityName": "Dushanbe",
+    "Country": 216,
+    "CountryCityKey": "TJ|dushanbe",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 651,
+    "CityName": "Khujand",
+    "Country": 216,
+    "CountryCityKey": "TJ|khujand",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 652,
+    "CityName": "Kulob",
+    "Country": 216,
+    "CountryCityKey": "TJ|kulob",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 653,
+    "CityName": "Dodoma",
+    "Country": 217,
+    "CountryCityKey": "TZ|dodoma",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 654,
+    "CityName": "Dar es Salaam",
+    "Country": 217,
+    "CountryCityKey": "TZ|dar-es-salaam",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 655,
+    "CityName": "Mwanza",
+    "Country": 217,
+    "CountryCityKey": "TZ|mwanza",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 656,
+    "CityName": "Arusha",
+    "Country": 217,
+    "CountryCityKey": "TZ|arusha",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 657,
+    "CityName": "Bangkok",
+    "Country": 218,
+    "CountryCityKey": "TH|bangkok",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 658,
+    "CityName": "Chiang Mai",
+    "Country": 218,
+    "CountryCityKey": "TH|chiang-mai",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 659,
+    "CityName": "Pattaya",
+    "Country": 218,
+    "CountryCityKey": "TH|pattaya",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 660,
+    "CityName": "Phuket",
+    "Country": 218,
+    "CountryCityKey": "TH|phuket",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 661,
+    "CityName": "Dili",
+    "Country": 219,
+    "CountryCityKey": "TL|dili",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 662,
+    "CityName": "Baucau",
+    "Country": 219,
+    "CountryCityKey": "TL|baucau",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 663,
+    "CityName": "Lome",
+    "Country": 220,
+    "CountryCityKey": "TG|lome",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 664,
+    "CityName": "Sokode",
+    "Country": 220,
+    "CountryCityKey": "TG|sokode",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 665,
+    "CityName": "Kara",
+    "Country": 220,
+    "CountryCityKey": "TG|kara",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 666,
+    "CityName": "Atafu",
+    "Country": 221,
+    "CountryCityKey": "TK|atafu",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 667,
+    "CityName": "Nukunonu",
+    "Country": 221,
+    "CountryCityKey": "TK|nukunonu",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 668,
+    "CityName": "Nuku'alofa",
+    "Country": 222,
+    "CountryCityKey": "TO|nuku-alofa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 669,
+    "CityName": "Neiafu",
+    "Country": 222,
+    "CountryCityKey": "TO|neiafu",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 670,
+    "CityName": "Port of Spain",
+    "Country": 223,
+    "CountryCityKey": "TT|port-of-spain",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 671,
+    "CityName": "San Fernando",
+    "Country": 223,
+    "CountryCityKey": "TT|san-fernando",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 672,
+    "CityName": "Chaguanas",
+    "Country": 223,
+    "CountryCityKey": "TT|chaguanas",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 673,
+    "CityName": "Tunis",
+    "Country": 224,
+    "CountryCityKey": "TN|tunis",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 674,
+    "CityName": "Sfax",
+    "Country": 224,
+    "CountryCityKey": "TN|sfax",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 675,
+    "CityName": "Sousse",
+    "Country": 224,
+    "CountryCityKey": "TN|sousse",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 676,
+    "CityName": "Ankara",
+    "Country": 225,
+    "CountryCityKey": "TR|ankara",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 677,
+    "CityName": "Istanbul",
+    "Country": 225,
+    "CountryCityKey": "TR|istanbul",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 678,
+    "CityName": "Izmir",
+    "Country": 225,
+    "CountryCityKey": "TR|izmir",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 679,
+    "CityName": "Bursa",
+    "Country": 225,
+    "CountryCityKey": "TR|bursa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 680,
+    "CityName": "Ashgabat",
+    "Country": 226,
+    "CountryCityKey": "TM|ashgabat",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 681,
+    "CityName": "Turkmenabat",
+    "Country": 226,
+    "CountryCityKey": "TM|turkmenabat",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 682,
+    "CityName": "Dasoguz",
+    "Country": 226,
+    "CountryCityKey": "TM|dasoguz",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 683,
+    "CityName": "Cockburn Town",
+    "Country": 227,
+    "CountryCityKey": "TC|cockburn-town",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 684,
+    "CityName": "Providenciales",
+    "Country": 227,
+    "CountryCityKey": "TC|providenciales",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 685,
+    "CityName": "Funafuti",
+    "Country": 228,
+    "CountryCityKey": "TV|funafuti",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 686,
+    "CityName": "Kampala",
+    "Country": 229,
+    "CountryCityKey": "UG|kampala",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 687,
+    "CityName": "Gulu",
+    "Country": 229,
+    "CountryCityKey": "UG|gulu",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 688,
+    "CityName": "Mbarara",
+    "Country": 229,
+    "CountryCityKey": "UG|mbarara",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 689,
+    "CityName": "Kyiv",
+    "Country": 230,
+    "CountryCityKey": "UA|kyiv",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 690,
+    "CityName": "Kharkiv",
+    "Country": 230,
+    "CountryCityKey": "UA|kharkiv",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 691,
+    "CityName": "Odesa",
+    "Country": 230,
+    "CountryCityKey": "UA|odesa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 692,
+    "CityName": "Lviv",
+    "Country": 230,
+    "CountryCityKey": "UA|lviv",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 693,
+    "CityName": "London",
+    "Country": 231,
+    "CountryCityKey": "GB|london",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 694,
+    "CityName": "Birmingham",
+    "Country": 231,
+    "CountryCityKey": "GB|birmingham",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 695,
+    "CityName": "Manchester",
+    "Country": 231,
+    "CountryCityKey": "GB|manchester",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 696,
+    "CityName": "Glasgow",
+    "Country": 231,
+    "CountryCityKey": "GB|glasgow",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 697,
+    "CityName": "Edinburgh",
+    "Country": 231,
+    "CountryCityKey": "GB|edinburgh",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 698,
+    "CityName": "Washington D.C.",
+    "Country": 232,
+    "CountryCityKey": "US|washington-dc",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 699,
+    "CityName": "New York City",
+    "Country": 232,
+    "CountryCityKey": "US|new-york-city",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 700,
+    "CityName": "Los Angeles",
+    "Country": 232,
+    "CountryCityKey": "US|los-angeles",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 701,
+    "CityName": "Chicago",
+    "Country": 232,
+    "CountryCityKey": "US|chicago",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 702,
+    "CityName": "Houston",
+    "Country": 232,
+    "CountryCityKey": "US|houston",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 703,
+    "CityName": "Wake Island",
+    "Country": 233,
+    "CountryCityKey": "UM|wake-island",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 704,
+    "CityName": "Charlotte Amalie",
+    "Country": 234,
+    "CountryCityKey": "VI|charlotte-amalie",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 705,
+    "CityName": "Christiansted",
+    "Country": 234,
+    "CountryCityKey": "VI|christiansted",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 706,
+    "CityName": "Montevideo",
+    "Country": 235,
+    "CountryCityKey": "UY|montevideo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 707,
+    "CityName": "Salto",
+    "Country": 235,
+    "CountryCityKey": "UY|salto",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 708,
+    "CityName": "Ciudad de la Costa",
+    "Country": 235,
+    "CountryCityKey": "UY|ciudad-de-la-costa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 709,
+    "CityName": "Tashkent",
+    "Country": 236,
+    "CountryCityKey": "UZ|tashkent",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 710,
+    "CityName": "Samarkand",
+    "Country": 236,
+    "CountryCityKey": "UZ|samarkand",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 711,
+    "CityName": "Namangan",
+    "Country": 236,
+    "CountryCityKey": "UZ|namangan",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 712,
+    "CityName": "Port Vila",
+    "Country": 237,
+    "CountryCityKey": "VU|port-vila",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 713,
+    "CityName": "Luganville",
+    "Country": 237,
+    "CountryCityKey": "VU|luganville",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 714,
+    "CityName": "Vatican City",
+    "Country": 238,
+    "CountryCityKey": "VA|vatican-city",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 715,
+    "CityName": "Caracas",
+    "Country": 239,
+    "CountryCityKey": "VE|caracas",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 716,
+    "CityName": "Maracaibo",
+    "Country": 239,
+    "CountryCityKey": "VE|maracaibo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 717,
+    "CityName": "Valencia",
+    "Country": 239,
+    "CountryCityKey": "VE|valencia",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 718,
+    "CityName": "Hanoi",
+    "Country": 240,
+    "CountryCityKey": "VN|hanoi",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 719,
+    "CityName": "Ho Chi Minh City",
+    "Country": 240,
+    "CountryCityKey": "VN|ho-chi-minh-city",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 720,
+    "CityName": "Da Nang",
+    "Country": 240,
+    "CountryCityKey": "VN|da-nang",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 721,
+    "CityName": "Haiphong",
+    "Country": 240,
+    "CountryCityKey": "VN|haiphong",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 722,
+    "CityName": "Mata-Utu",
+    "Country": 241,
+    "CountryCityKey": "WF|mata-utu",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 723,
+    "CityName": "Laayoune",
+    "Country": 242,
+    "CountryCityKey": "EH|laayoune",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 724,
+    "CityName": "Dakhla",
+    "Country": 242,
+    "CountryCityKey": "EH|dakhla",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 725,
+    "CityName": "Sanaa",
+    "Country": 243,
+    "CountryCityKey": "YE|sanaa",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 726,
+    "CityName": "Aden",
+    "Country": 243,
+    "CountryCityKey": "YE|aden",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 727,
+    "CityName": "Taiz",
+    "Country": 243,
+    "CountryCityKey": "YE|taiz",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 728,
+    "CityName": "Lusaka",
+    "Country": 244,
+    "CountryCityKey": "ZM|lusaka",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 729,
+    "CityName": "Kitwe",
+    "Country": 244,
+    "CountryCityKey": "ZM|kitwe",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 730,
+    "CityName": "Ndola",
+    "Country": 244,
+    "CountryCityKey": "ZM|ndola",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 731,
+    "CityName": "Harare",
+    "Country": 245,
+    "CountryCityKey": "ZW|harare",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 732,
+    "CityName": "Bulawayo",
+    "Country": 245,
+    "CountryCityKey": "ZW|bulawayo",
+    "IsActive": true,
+    "_etag": "\"1\""
+  },
+  {
+    "ID": 733,
+    "CityName": "Chitungwiza",
+    "Country": 245,
+    "CountryCityKey": "ZW|chitungwiza",
+    "IsActive": true,
+    "_etag": "\"1\""
+  }
 ]
